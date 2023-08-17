@@ -1,6 +1,6 @@
 # HydraMOD: Mod de Equilibrio y Expansión para Europa Universalis IV
 <p align="center">
-![2](https://github.com/UO278036/Hydra-2.0/assets/98962647/f4c539de-3364-4fa7-a206-eb6b55c30bc6)
+  <img src="https://github.com/UO278036/Hydra-2.0/assets/98962647/f4c539de-3364-4fa7-a206-eb6b55c30bc6" alt="Descripción de la imagen">
 </p>
 ¡Bienvenidos al emocionante mundo del mod de equilibrio y expansión para Europa Universalis IV! En este repositorio, exploraremos las profundidades de la historia y la estrategia mientras trabajamos juntos para mejorar y expandir la experiencia de juego en uno de los títulos de estrategia más icónicos de Paradox Interactive.
 
