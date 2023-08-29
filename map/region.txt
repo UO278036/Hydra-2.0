@@ -592,9 +592,6 @@ central_asia_region = {
 		arys_area
 		lower_yik_area
 		syr_darya_area
-		kashgaria_area
-		tarim_basin_area
-		shanshan_area
 		kyzylkum_area
 		termez_area
 	}
@@ -630,6 +627,7 @@ west_siberia_region = {
 		ishim_area
 		kara_area
 		aqmola_area
+		tannu_uriankhai_area
 	}
 }
 
@@ -656,7 +654,6 @@ mongolia_region = {
 		central_mongolia_area
 		uliastai_area
 		turpan_kumul_area
-		tannu_uriankhai_area
 		xilin_gol_area
 		chahar_area
 		cicigar_area
@@ -700,6 +697,9 @@ tibet_region = {
 		kham_area
 		bhutan_area
 		ngari_area
+		tarim_basin_area		
+		shanshan_area
+		kashgaria_area
 	}
 }
 
