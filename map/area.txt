@@ -297,19 +297,19 @@ provence_area = { #3
 }
 
 poitou_area = { #4
-	180 4111 4386 4387
+	180 4111 4386 4387 4697
 }
 
 guyenne_area = { #4
-	194 198 4112 174
+	194 198 4112 174 195
 }
 
 pyrenees_area = { #4
-	175 173 176 4694
+	175 173 176 4694 196
 }
 
 languedoc_area = { #5
-	200 2753 4391 4695 196
+	200 2753 4391 4695
 }
 
 bourgogne_area = { #3
@@ -323,7 +323,7 @@ west_burgundy_area = { #3
 
 massif_central_area = { #3
 	color = { 26 26 217 }
-	190 195 199 4697 4777
+	190 199 4777
 }
 
 savoy_dauphine_area = { #3 Savoy and Dauphiné, Upper Burgundy 
@@ -335,7 +335,7 @@ lorraine_area = { #4
 }
 
 picardy_area = { #4
-	87 88 89 1743
+	87 88 89
 }
 
 ile_de_france_area = { #4
@@ -343,7 +343,7 @@ ile_de_france_area = { #4
 }
 
 champagne_area = { #3
-	181 186 4390
+	181 186 4390 1743
 }
 
 loire_area = { #5
@@ -941,7 +941,7 @@ upper_franconia_area = { #4
 }
 
 upper_swabia_area = { #4 (East Swabia)
-	68 1868 4711 1872
+	68 1868 4711 1872 4710
 }
 
 northern_saxony_area = { #4 (Saxe-Altmark)
@@ -971,7 +971,7 @@ hinter_pommern_area = { #3
 }
 
 tirol_area = { #5
-	73 110 1768 4710 4758
+	73 110 1768 4758
 }
 
 austria_proper_area = { #5
@@ -1061,7 +1061,7 @@ macedonia_area = { #5 (Macedonia)
 }
 
 morea_area = { #4 Central Greece
-	145 1773 4701 163
+	145 1773 4701
 }
 
 northern_greece_area = { #3 #Northern Greece
@@ -1174,9 +1174,9 @@ dagestan_area = { #5
 # Anatolia, The Levant & Mesopotamia   #
 ########################################
 
-#eastern_mediterrenean_islands_area = { #(Rhodes, Cyprus, Crete)
-#	163 320
-#}
+eastern_mediterrenean_islands_area = { #(Rhodes, Cyprus, Crete)
+	163 320 321 #Eastern Mediterrenean Islands
+}
 
 rum_area = { #5
 	329 1846 2300 4314 4315
@@ -1197,7 +1197,7 @@ germiyan_area = { #4
 
 aydin_area = { #5
 	color = { 239 70 86 }
-	318 319 2297 4309 320
+	318 319 2297 4309
 }
 
 ankara_area = { #3
@@ -1219,11 +1219,11 @@ karaman_area = { #4
 
 cukurova_area = { #3
 	color = { 50 177 200 }
-	327 2302 321
+	327 2302 2313
 }
 
 aleppo_area = { #4
-	377 1849 2313 4298
+	377 1849 4298
 }
 
 syria_area = { #4

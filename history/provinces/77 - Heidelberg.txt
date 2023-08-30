@@ -10,7 +10,9 @@ base_production = 4
 base_manpower = 4
 fort_15th = yes
 is_city = yes
-controller = PAL
+owner = ROT
+controller = ROT
+add_core = ROT
 add_core = PAL
 hre = yes
 

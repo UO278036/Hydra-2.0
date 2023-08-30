@@ -1,0 +1,20 @@
+##############################
+# Province Modifiers
+##############################
+hydra_key_mediterrenean_island_modifier = {
+	province_trade_power_value = 5
+	#picture = "estuary_icon"
+}
+hydra_straits_of_messina_modifier = {
+	province_trade_power_value = 5
+	picture = "estuary_icon"
+}
+hydra_austrian_main_port_modifier = {
+	province_trade_power_value = 10
+	development_cost = -0.10
+	#picture = "estuary_icon"
+}
+hydra_adriatic_entrance_modifier = {
+	province_trade_power_value = 5
+	picture = "estuary_icon"
+}

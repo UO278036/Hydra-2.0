@@ -1,6 +1,7 @@
 #79 - Würzburg
-owner = WBG
-controller = WBG
+owner = ROT
+controller = ROT
+add_core = ROT
 add_core = WBG
 culture = franconian
 religion = catholic

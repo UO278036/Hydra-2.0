@@ -15,7 +15,10 @@ is_city = yes
 add_core = SIC
 add_core = NAP
 
-
+add_permanent_province_modifier = {
+	name = hydra_straits_of_messina_modifier
+	duration = -1
+}
 
 discovered_by = western
 discovered_by = eastern

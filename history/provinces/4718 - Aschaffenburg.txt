@@ -1,5 +1,6 @@
-owner = MAI
-controller = MAI
+owner = ROT
+controller = ROT
+add_core = ROT
 capital = "Aschaffenburg"
 is_city = yes
 culture = franconian

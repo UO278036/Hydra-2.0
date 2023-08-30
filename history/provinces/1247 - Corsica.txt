@@ -21,6 +21,10 @@ discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 
+add_permanent_province_modifier = {
+	name = hydra_key_mediterrenean_island_modifier
+	duration = -1
+}
 
 1464.1.1 = {
 	owner = MLO
