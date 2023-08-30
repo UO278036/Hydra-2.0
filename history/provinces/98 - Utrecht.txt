@@ -18,6 +18,10 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 
+add_permanent_province_modifier = {
+	name = rhine_estuary_modifier
+	duration = -1
+}
 
 1515.1.5 = { add_core = HAB } # Charles V ascends to the throne
 1528.6.21 = { owner = SPA controller = SPA add_core = SPA remove_core = HAB } # Charles V annexes Utrecht

@@ -1,24 +1,15 @@
-# No previous file for Hitchiti
+#2537 - Hitchiti
 
-   is_city = yes
 culture = yamasee
 religion = totemism
 capital = "Hitchiti"
-trade_goods = cotton
+trade_goods = unknown
 hre = no
-base_tax = 1 
-base_production = 1
-base_manpower = 1
+base_tax = 2
+base_production = 2
+base_manpower = 2
 native_size = 5
 native_ferocity = 1
-native_hostileness = 2
-
-
+native_hostileness = 6
 
 discovered_by = north_american
-
-1524.1.1 = { discovered_by = POR } # Diego Gomez
-1814.8.9 = {
-	 	 	 	culture = american
-	religion = protestant 
-} #Treaty of Fort Jackson ending the Creek War

@@ -372,7 +372,7 @@ flanders_area = { #3
 }
 
 frisia_area = { #5
-	99 100 1931 4381 4382
+	99 100 4381 4382
 }
 
 brabant_area = { #3
@@ -605,11 +605,11 @@ gotaland_area = { #3 Östra Götaland
 }
 
 vastra_gotaland_area = { #Västra Götaland #4
-	7 16 4163 4164
+	16 4163 4164
 }
 
 svealand_area = { #3
-	5 8 1985 
+	5 8 1985 7
 }
 
 ostra_svealand_area = { #4
@@ -911,7 +911,7 @@ moravia_area = {
 }
 
 south_saxony_area = { #4
-	59 61 4744 62
+	59 61 4744 62 58
 }
 
 upper_bavaria_area = { #4
@@ -937,7 +937,7 @@ franconia_area = { #4 (Lower Franconia)
 }
 
 upper_franconia_area = { #4
-	66 67 4716 4717
+	66 67 4717
 }
 
 upper_swabia_area = { #4 (East Swabia)
@@ -946,11 +946,11 @@ upper_swabia_area = { #4 (East Swabia)
 
 northern_saxony_area = { #4 (Saxe-Altmark)
 	color = { 229 20 20 }
-	52 58 2964 4741 4742
+	52 2964 4741 4748 4786 
 }
 
 thuringia_area = { #3
-	63 2965 4743
+	63 2965 4743 4716
 }
 
 neumark_area = { #3
@@ -959,7 +959,7 @@ neumark_area = { #3
 }
 
 mittelmark_area = { #5
-	50 51 1759 4748 2993
+	50 51 1759 2993 4749
 }
 
 vorpommern_area = { #4
@@ -1009,7 +1009,7 @@ palatinate_area = { #3
 }
 
 north_rhine_area = { #4
-	84 85 2975 83
+	84 85 2975 69
 }
 
 lower_rhineland_area = { #4
@@ -1017,35 +1017,34 @@ lower_rhineland_area = { #4
 }
 
 westphalia_area = { #3 (South Westphalia)
-	82 2972 4775
+	2972 1762 4774 #4775 82
 }
 
 north_westphalia_area = { #4
-	56 86 2973 69
+	56 86 2973 4775 #69
 }
-
 hesse_area = { #5
-	81 1762 1876 4774 78
+	81 1876 78 82 83 #4774 1762
 }
 
 braunschweig_area = { #4
-	57 1758 2971 4773
+	57 1758 2971 4773 4742
 }
    
 weser_area = { #4
-	54 55 1874 4771
+	54 55 1874 1931
 }
 
 holstein_area = { #3
-	13 1775 4141 
+	13 1775 4141 44 
 }
 
 lower_saxony_area = { #4
-	44 53 1857 4772
+	53 1857 4772 4771
 }
 
 mecklenburg_area = { #5
-	45 46 2996 4749 4786
+	45 46 2996
 }
 
 ########################################
