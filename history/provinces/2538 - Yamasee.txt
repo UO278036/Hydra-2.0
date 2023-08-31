@@ -1,6 +1,9 @@
 # No previous file for Yamasee
 
-   is_city = yes
+owner = CRE
+controller = CRE
+add_core = CRE
+is_city = yes
 culture = yamasee
 religion = totemism
 capital = "Yamasee"

@@ -1,6 +1,9 @@
 #935 - Cherokee
 
-  culture = yuchi
+owner = CRE
+controller = CRE
+add_core = CRE
+culture = yuchi
 religion = totemism
 capital = "Cherokee"
 trade_goods = naval_supplies

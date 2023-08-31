@@ -15,8 +15,9 @@ hre = no
 base_tax = 2 
 base_production = 2
 base_manpower = 1
-owner = PCJ
-controller = PCJ
+owner = CSU
+controller = CSU
+add_core = CSU
 add_core = PCJ
 
 1476.1.1 = {

@@ -1,6 +1,9 @@
 # No previous file for Tkaronto
 
-   is_city = yes
+add_core = IRO
+owner = IRO
+controller = IRO
+is_city = yes
 culture = huron
 religion = totemism
 capital = "Tahontaenrat"

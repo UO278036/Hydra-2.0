@@ -1,6 +1,9 @@
 #958 - Seneca (Area was Wenro until 1638)
 
-   culture = iroquois
+add_core = IRO
+owner = IRO
+controller = IRO
+culture = iroquois
 religion = totemism
 capital = "Seneca"
 trade_goods = fur

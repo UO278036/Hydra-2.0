@@ -1,6 +1,9 @@
 #987 - Niagara
 
-  culture = tionontate
+add_core = IRO
+owner = IRO
+controller = IRO
+culture = tionontate
 religion = totemism
 capital = "Niagara"
 trade_goods = fur

@@ -1,7 +1,6 @@
 # - Quero
 
-owner = CSU
-controller = CSU
+
 culture = inca
 religion = inti
 capital = "Quero"
@@ -11,8 +10,9 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = CSU
-
+native_size = 10
+native_ferocity = 1 
+native_hostileness = 1
 
 
 discovered_by = south_american

@@ -1,6 +1,9 @@
 #959 - Cayuga
 
-  culture = iroquois
+add_core = IRO
+owner = IRO
+controller = IRO
+culture = iroquois
 religion = totemism
 capital = "Cayuga"
 trade_goods = fur

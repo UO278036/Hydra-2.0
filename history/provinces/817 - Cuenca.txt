@@ -1,8 +1,6 @@
 #817 - Cuenca
 
-owner = QTO
-controller = QTO
-add_core = QTO
+
 culture = cara
 
 
@@ -18,7 +16,9 @@ hre = no
 base_tax = 3 
 base_production = 3
 base_manpower = 2
-
+native_size = 15
+native_ferocity = 5
+native_hostileness = 5
 
 
 discovered_by = QTO

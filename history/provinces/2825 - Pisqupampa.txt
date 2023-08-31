@@ -1,7 +1,8 @@
 # - Pisqupampa
 
-owner = HJA
-controller = HJA
+owner = CSU
+controller = CSU
+add_core = CSU
 culture = inca
 religion = inti
 capital = "Pisqupampa"

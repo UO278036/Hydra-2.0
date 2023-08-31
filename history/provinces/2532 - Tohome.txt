@@ -1,4 +1,5 @@
-   is_city = yes
+#22532 - Tohome
+is_city = yes
 culture = choctaw
 religion = totemism
 capital = "Tohome"

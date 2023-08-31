@@ -1,6 +1,9 @@
 #960 - Onondaga
 
-  culture = iroquois
+add_core = IRO
+owner = IRO
+controller = IRO
+culture = iroquois
 religion = totemism
 capital = "Onondaga"
 trade_goods = fur

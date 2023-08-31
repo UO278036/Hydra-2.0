@@ -1,7 +1,8 @@
 #847 - Mixtec
 
-owner = MIX 
-controller = MIX
+owner = AZT
+controller = AZT
+add_core = AZT
 culture = mixtec 
 religion = nahuatl
 capital = "Totopec" 

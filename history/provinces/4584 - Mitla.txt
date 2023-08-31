@@ -1,7 +1,8 @@
 # No previous file for Mitla
 
-owner = ZAP
-controller = ZAP
+owner = AZT
+controller = AZT
+add_core = AZT
 culture = zapotek
 religion = nahuatl
 capital = "Mitla"

@@ -1,6 +1,9 @@
 # No previous file for Coweta
 
-   is_city = yes
+owner = CRE
+controller = CRE
+add_core = CRE
+is_city = yes
 culture = creek
 religion = totemism
 capital = "Coweta"

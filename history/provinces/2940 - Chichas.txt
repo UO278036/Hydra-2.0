@@ -1,7 +1,8 @@
 # - Chichas
 
-owner = PCJ
-controller = PCJ
+owner = CSU
+controller = CSU
+add_core = CSU
 add_core = PCJ
 culture = aimara
 

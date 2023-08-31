@@ -1,0 +1,6 @@
+vassal = {
+	first = AZT
+	second = TLX
+	start_date = 1444.1.1
+	end_date = 1465.1.1
+}

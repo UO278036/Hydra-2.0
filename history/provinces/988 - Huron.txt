@@ -1,6 +1,9 @@
 #988 - Huron
 
-  culture = huron
+add_core = IRO
+owner = IRO
+controller = IRO
+culture = huron
 religion = totemism
 capital = "Attignawantan"
 trade_goods = fur

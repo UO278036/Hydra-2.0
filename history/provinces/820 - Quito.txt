@@ -1,6 +1,6 @@
 #820 - Quito
-owner = QTO
-controller = QTO
+
+
 culture = cara
 discovered_by = south_american
 discovered_by = andean
@@ -12,7 +12,9 @@ hre = no
 base_tax = 6 
 base_production = 6
 base_manpower = 2
-add_core = QTO
+native_size = 15
+native_ferocity = 5
+native_hostileness = 5
 extra_cost = 8
 center_of_trade = 1
 

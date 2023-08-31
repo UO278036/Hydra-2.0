@@ -1,5 +1,8 @@
 # No previous file for Combahee
 
+owner = CRE
+controller = CRE
+add_core = CRE
 culture = yamasee
 religion = totemism
 capital = "Combahee"

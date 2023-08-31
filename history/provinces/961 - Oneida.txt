@@ -1,6 +1,9 @@
 #961 - Oneida
 
-  culture = iroquois
+add_core = IRO
+owner = IRO
+controller = IRO
+culture = iroquois
 religion = totemism
 capital = "Oneida"
 trade_goods = fur

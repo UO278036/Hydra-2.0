@@ -1,6 +1,9 @@
 #925 - Tuskegee
 
-  culture = creek
+owner = CRE
+controller = CRE
+add_core = CRE
+culture = creek
 religion = totemism
 capital = "Tuskegee"
 trade_goods = cotton

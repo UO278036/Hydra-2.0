@@ -1,7 +1,8 @@
 # - Tucume
 
-owner = CHM
-controller = CHM
+owner = CSU
+controller = CSU
+add_core = CSU
 culture = chimuan
 religion = inti
 capital = "Tucume"

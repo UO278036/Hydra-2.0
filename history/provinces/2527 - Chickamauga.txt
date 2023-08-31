@@ -1,6 +1,9 @@
 # No previous file for Chickamauga
 
-   culture = creek
+owner = CRE
+controller = CRE
+add_core = CRE
+culture = creek
 religion = totemism
 capital = "Atali"
 trade_goods = fur

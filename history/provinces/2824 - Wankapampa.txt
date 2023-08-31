@@ -1,7 +1,8 @@
 # - Wankapampa
 
-owner = CJA
-controller = CJA
+owner = CSU
+controller = CSU
+add_core = CSU
 culture = inca
 religion = inti
 capital = "Wankapampa"

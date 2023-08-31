@@ -1,8 +1,9 @@
 # No previous file for Tepeacac
 
 culture = aztek
-owner = TEO
-controller = TEO
+owner = AZT
+controller = AZT
+add_core = AZT
 add_core = TEO
 is_city = yes
 religion = nahuatl
