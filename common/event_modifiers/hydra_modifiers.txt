@@ -24,7 +24,32 @@ close_area_0_modifier = {
 	trade_value_modifier = -1000
 }
 close_area_1_modifier = {
+	min_local_autonomy = 10
+}
+close_area_2_modifier = {
+	min_local_autonomy = 20
+}
+close_area_3_modifier = {
+	min_local_autonomy = 30
+}
+close_area_4_modifier = {
+	min_local_autonomy = 40
+}
+close_area_5_modifier = {
 	min_local_autonomy = 50
-	#local_colonial_growth = -1000
-	#trade_value_modifier = -1000
+}
+close_area_6_modifier = {
+	min_local_autonomy = 60
+}
+close_area_7_modifier = {
+	min_local_autonomy = 70
+}
+close_area_8_modifier = {
+	min_local_autonomy = 80
+}
+close_area_9_modifier = {
+	min_local_autonomy = 90
+}
+close_area_10_modifier = {
+	min_local_autonomy = 100
 }

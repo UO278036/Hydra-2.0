@@ -27,6 +27,7 @@ economic_hegemon = {
 	
 	max = {
 		all_power_cost = -0.1
+		infantry_power = 0.1
 	}
 	
 }

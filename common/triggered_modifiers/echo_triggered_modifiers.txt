@@ -58,6 +58,7 @@ Minor = {
 			NOT = { is_lacking_institutions = yes }
 	}
 	all_power_cost = -0.025
+	development_cost_modifier = -0.5
 	own_territory_dice_roll_bonus = 1
 }
 
@@ -71,16 +72,19 @@ We_stand_alone = {
 		OR = {
 			great_power_rank = 5
 			is_great_power = no
-			}
-			any_country = {
-					total_development = ROOT
-				}
-			
-			NOT = { num_of_allies = 1 }
-			NOT = { is_hegemon = yes }
-			NOT = { is_colonial_nation = yes }	
-			NOT = { is_lacking_institutions = yes }
+		}
+		any_country = {
+			total_development = ROOT
+		}
+		
+		NOT = { num_of_allies = 1 }
+		NOT = { is_hegemon = yes }
+		NOT = { is_colonial_nation = yes }	
+		NOT = { is_lacking_institutions = yes }
+		is_at_war = yes
+		any_war_enemy_country = { ai = no }
 	}
+
 	land_morale = 0.1
 	naval_morale = 0.1
 	discipline = 0.05

@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = flemish
+
+capital = 92
+
+1404.1.1 = {
+	monarch = {
+		name = "Pelipeee"
+		monarch_name = "Pelipeee"
+		dynasty = "Bourgogne"
+		birth_date = 1396.7.31
+		death_date = 1467.6.15
+		claim = 95
+		dip = 5
+		adm = 5
+		mil = 5
+	}
+}

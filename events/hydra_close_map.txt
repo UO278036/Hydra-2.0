@@ -18,9 +18,9 @@ province_event = {
 					region = burma_region
 					region = xinan_region
 					region = japan_region
-					region = mongolia_region
+					#region = mongolia_region
 					region = korea_region
-					region = manchuria_region
+					#region = manchuria_region
 					region = tibet_region
 
 				}
@@ -58,7 +58,7 @@ province_event = {
 }
 
 
-province_event = {
+province_event = { #America y Oseania y India; 50 autonomia minima
 	id = hydra_close_map.2
 	title = hydra_close_map.2.t
 	desc = hydra_close_map.2.desc
@@ -70,42 +70,37 @@ province_event = {
 		OR = {
 			AND = { #cuando hay que ponerlo
 				OR = {
-					region = sahel_region
-					region = niger_region
-					region = guinea_region
-					region = horn_of_africa_region
-					#region = east_africa_region
-					#region = kongo_region
-					#region = south_africa_region
-					#region = central_africa_region
+					#region = mongolia_region
+					#region = manchuria_region
+					#region = sahel_region
+					#region = niger_region
+					#region = guinea_region
+					#region = horn_of_africa_region
 					#region = arabia_region
-					#region = bengal_region
-					#region = hindusthan_region
-					#region = west_india_region
-					#region = deccan_region
-					#region = coromandel_region
 					#region = khorasan_region
-					region = malaya_region
-					region = east_indian_ocean_region
-					region = moluccas_region
+					#region = persia_region
+					#region = central_asia_region
+					#region = malaya_region
+					#region = indonesia_region	
+					#region = moluccas_region
 					superregion = central_america_superregion
 					superregion = andes_superregion
 					superregion = north_america_superregion
 					superregion = south_america_superregion
-					superregion = southern_africa_superregion
+					#superregion = southern_africa_superregion
 					superregion = oceania_superregion
 					superregion = india_superregion
 
 				}
 				NOT = {
-					has_province_modifier = close_area_1_modifier
+					has_province_modifier = close_area_5_modifier
 				}
 				owner = {
 					ai = no
 				}
 			}
 			AND = {  #Cuando hay que quitarlo
-				has_province_modifier = close_area_1_modifier
+				has_province_modifier = close_area_5_modifier
 				AI = yes
 			}
 		}
@@ -117,19 +112,238 @@ province_event = {
 		name = hydra_close_map.2.a
 		trigger = {
 			NOT = {
-				has_province_modifier = close_area_1_modifier
+				has_province_modifier = close_area_5_modifier
 			}
 		}
 		add_province_modifier = { 
-			name = close_area_1_modifier
+			name = close_area_5_modifier
 			duration = -1  
 		}
 	}
 	option = {
 		name = hydra_close_map.2.b
 		trigger = {
-			has_province_modifier = close_area_1_modifier
+			has_province_modifier = close_area_5_modifier
 		}
-		remove_province_modifier = close_area_1_modifier
-	}º
+		remove_province_modifier = close_area_5_modifier
+	}
+}
+
+province_event = { #Africa; 30 autonomia
+	id = hydra_close_map.3
+	title = hydra_close_map.3.t
+	desc = hydra_close_map.3.desc
+	picture = DIPLOMACY_eventPicture
+	
+	hidden = yes
+
+    trigger = {
+		OR = {
+			AND = { #cuando hay que ponerlo
+				OR = {
+					#region = mongolia_region
+					#region = manchuria_region
+					region = sahel_region
+					region = niger_region
+					region = guinea_region
+					region = horn_of_africa_region
+					#region = arabia_region
+					#region = khorasan_region
+					#region = persia_region
+					#region = central_asia_region
+					#region = malaya_region
+					#region = indonesia_region	
+					#region = moluccas_region
+					#superregion = central_america_superregion
+					#superregion = andes_superregion
+					#superregion = north_america_superregion
+					#superregion = south_america_superregion
+					superregion = southern_africa_superregion
+					#superregion = oceania_superregion
+					#superregion = india_superregion
+
+				}
+				NOT = {
+					OR = {
+						has_province_modifier = close_area_3_modifier
+					}
+				}
+				owner = {
+					ai = no
+				}
+			}
+			AND = {  #Cuando hay que quitarlo
+				has_province_modifier = close_area_3_modifier
+				AI = yes
+			}
+		}
+    }
+	
+	immediate = {
+	}
+	option = {
+		name = hydra_close_map.3.a
+		trigger = {
+			NOT = {
+				has_province_modifier = close_area_3_modifier
+			}
+		}
+		add_province_modifier = { 
+			name = close_area_3_modifier
+			duration = -1  
+		}
+	}
+	option = {
+		name = hydra_close_map.3.b
+		trigger = {
+			has_province_modifier = close_area_3_modifier
+		}
+		remove_province_modifier = close_area_3_modifier
+	}
+}
+
+province_event = { #Asia central; 20 autonomia
+	id = hydra_close_map.4
+	title = hydra_close_map.4.t
+	desc = hydra_close_map.4.desc
+	picture = DIPLOMACY_eventPicture
+	
+	hidden = yes
+
+    trigger = {
+		OR = {
+			AND = { #cuando hay que ponerlo
+				OR = {
+					#region = mongolia_region
+					#region = manchuria_region
+					#region = sahel_region
+					#region = niger_region
+					#region = guinea_region
+					#region = horn_of_africa_region
+					region = arabia_region
+					region = khorasan_region
+					region = persia_region
+					region = central_asia_region
+					#region = malaya_region
+					#region = indonesia_region	
+					#region = moluccas_region
+					#superregion = central_america_superregion
+					#superregion = andes_superregion
+					#superregion = north_america_superregion
+					#superregion = south_america_superregion
+					#superregion = southern_africa_superregion
+					#superregion = oceania_superregion
+					#superregion = india_superregion
+
+				}
+				NOT = {
+					OR = {
+						has_province_modifier = close_area_2_modifier
+					}
+				}
+				owner = {
+					ai = no
+				}
+			}
+			AND = {  #Cuando hay que quitarlo
+				has_province_modifier = close_area_2_modifier
+				AI = yes
+			}
+		}
+    }
+	
+	immediate = {
+	}
+	option = {
+		name = hydra_close_map.4.a
+		trigger = {
+			NOT = {
+				has_province_modifier = close_area_2_modifier
+			}
+		}
+		add_province_modifier = { 
+			name = close_area_2_modifier
+			duration = -1  
+		}
+	}
+	option = {
+		name = hydra_close_map.4.b
+		trigger = {
+			has_province_modifier = close_area_2_modifier
+		}
+		remove_province_modifier = close_area_2_modifier
+	}
+}
+
+province_event = { #Mongolia, manchuria y indonesia	; 40 autonomia
+	id = hydra_close_map.5
+	title = hydra_close_map.5.t
+	desc = hydra_close_map.5.desc
+	picture = DIPLOMACY_eventPicture
+	
+	hidden = yes
+
+    trigger = {
+		OR = {
+			AND = { #cuando hay que ponerlo
+				OR = {
+					region = mongolia_region
+					region = manchuria_region
+					#region = sahel_region
+					#region = niger_region
+					#region = guinea_region
+					#region = horn_of_africa_region
+					#region = arabia_region
+					#region = khorasan_region
+					#region = persia_region
+					#region = central_asia_region
+					region = malaya_region
+					region = indonesia_region	
+					region = moluccas_region
+					#superregion = central_america_superregion
+					#superregion = andes_superregion
+					#superregion = north_america_superregion
+					#superregion = south_america_superregion
+					#superregion = southern_africa_superregion
+					#superregion = oceania_superregion
+					#superregion = india_superregion
+
+				}
+				NOT = {
+					OR = {
+						has_province_modifier = close_area_4_modifier
+					}
+				}
+				owner = {
+					ai = no
+				}
+			}
+			AND = {  #Cuando hay que quitarlo
+				has_province_modifier = close_area_4_modifier
+				AI = yes
+			}
+		}
+    }
+	
+	immediate = {
+	}
+	option = {
+		name = hydra_close_map.5.a
+		trigger = {
+			NOT = {
+				has_province_modifier = close_area_4_modifier
+			}
+		}
+		add_province_modifier = { 
+			name = close_area_2_modifier
+			duration = -1  
+		}
+	}
+	option = {
+		name = hydra_close_map.5.b
+		trigger = {
+			has_province_modifier = close_area_4_modifier
+		}
+		remove_province_modifier = close_area_4_modifier
+	}
 }
