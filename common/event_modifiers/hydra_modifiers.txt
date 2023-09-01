@@ -18,3 +18,13 @@ hydra_adriatic_entrance_modifier = {
 	province_trade_power_value = 5
 	picture = "estuary_icon"
 }
+close_area_0_modifier = {
+	min_local_autonomy = 1000
+	local_colonial_growth = -1000
+	trade_value_modifier = -1000
+}
+close_area_1_modifier = {
+	min_local_autonomy = 50
+	#local_colonial_growth = -1000
+	#trade_value_modifier = -1000
+}

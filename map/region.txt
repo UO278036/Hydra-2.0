@@ -639,6 +639,7 @@ east_siberia_region = {
 		kamchatka_area
 		buryatia_area
 		kolyma_area
+		heilongjiang_area
 	}
 }
 
@@ -662,7 +663,6 @@ mongolia_region = {
 
 manchuria_region = {
 	areas = {
-		heilongjiang_area
 		east_heilongjiang_area
 		jilin_area
 		central_jilin_area
