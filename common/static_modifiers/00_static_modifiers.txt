@@ -112,6 +112,7 @@ port = {
 
 in_state = {
 	local_institution_spread = 0.10
+	local_development_cost = -0.1
 }
 
 in_capital_state = {
@@ -145,6 +146,8 @@ coastal_sea = {
 }
 
 tropical = {
+	max_attrition = 1
+	local_hostile_attrition = 1
 }
 
 arctic = {
@@ -156,6 +159,8 @@ arctic = {
 }
 
 arid = {
+	max_attrition = 1
+	local_hostile_attrition = 1
 }
 
 sea_zone = {
@@ -177,7 +182,8 @@ mild_winter = {
 }
 
 normal_winter = {
-	local_hostile_attrition = 2
+	max_attrition = 1
+	local_hostile_attrition = 1
 	supply_limit_modifier = -0.2
 	migration_cost = 0.1
 
@@ -185,7 +191,8 @@ normal_winter = {
 }
 
 severe_winter = {
-	local_hostile_attrition = 3
+	max_attrition = 2
+	local_hostile_attrition = 2
 	supply_limit_modifier = -0.3
 	migration_cost = 0.2
 
@@ -197,10 +204,14 @@ mild_monsoon = {
 }
 
 normal_monsoon = {
+	max_attrition = 1
+	local_hostile_attrition = 1
 	picture = "monsoon_normal"
 }
 
 severe_monsoon = {
+	max_attrition = 2
+	local_hostile_attrition = 2
 	picture = "monsoon_severe"
 }
 
@@ -208,12 +219,12 @@ blockaded = {
 	regiment_recruit_speed = 0.2
 	ship_recruit_speed = 0.25
 	local_monthly_devastation = 0.33
-	trade_goods_size_modifier = -0.25 
+	#trade_goods_size_modifier = -0.25 
 	local_tax_modifier = -0.5
-	province_trade_power_modifier = -1
-	local_manpower_modifier = -1
-	local_sailors_modifier = -0.75
-	local_institution_spread = -0.1
+	province_trade_power_modifier = -2
+	#local_manpower_modifier = -1
+	#local_sailors_modifier = -0.75
+	local_institution_spread = -1
 }
 
 no_adjacent_controlled = {

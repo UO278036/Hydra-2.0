@@ -21,14 +21,72 @@ country_event = {
     option = {
         name = hydra_burgundian.1.a
 
-        low_countries_region = {
-			limit = { country_or_non_sovereign_subject_holds = BUR } 
-			cede_province = HOL 
-			add_core = HOL
-			remove_core = BUR
-			add_local_autonomy = 25
-		}
+        #low_countries_region = {
+		#	limit = { country_or_non_sovereign_subject_holds = BUR } 
+		#	cede_province = HOL 
+		#	add_core = HOL
+		#	remove_core = BUR
+		#	add_local_autonomy = 25
+		#}
 		BUR = {
+			#NEDERLANDS
+			if = {
+				limit = { 
+					exists = NED
+				}
+				every_subject_country = {
+					every_owned_province = {
+						limit = {
+							region = low_countries_region
+	
+						}
+						#limit = { exists = NED }
+						add_core = NED
+						cede_province = NED
+						add_local_autonomy = 25
+					}
+				}
+				every_owned_province = {
+					limit = {
+						region = low_countries_region
+	
+					}
+					add_core = NED
+					cede_province = NED
+					add_local_autonomy = 25
+				}
+			}
+			#Holand
+			if = {
+				limit = { 
+					AND = { 
+						NOT = {  exists = NED }
+						exists = HOL
+					}
+				}
+				every_subject_country = {
+					every_owned_province = {
+						limit = {
+							region = low_countries_region
+	
+						}
+						#limit = { exists = NED }
+						add_core = HOL
+						cede_province = HOL
+						add_local_autonomy = 25
+					}
+				}
+				every_owned_province = {
+					limit = {
+						region = low_countries_region
+	
+					}
+					add_core = HOL
+					cede_province = HOL
+					add_local_autonomy = 25
+				}
+			}
+			#FRANCE
 			every_subject_country = {
 				every_owned_province = {
 					limit = {
@@ -48,6 +106,7 @@ country_event = {
 			
 				}
 			}
+			#FRANCE
 			every_owned_province = {
 				limit = {
 					OR = {
@@ -65,6 +124,7 @@ country_event = {
 				add_local_autonomy = 25
 		
 			}
+			#EMPEROR
 			every_subject_country = {
 				every_owned_province = {	
 
@@ -74,6 +134,7 @@ country_event = {
 
 				}
 			}
+			#EMPEROR
 			every_owned_province = {
 				add_core = emperor
 				cede_province = emperor
@@ -83,7 +144,23 @@ country_event = {
 		}
 		emperor = { country_event = { id = hydra_burgundian.2 days = 1} }
 		FRA = { country_event = { id = hydra_burgundian.2 days = 1} }
-		HOL = { country_event = { id = hydra_burgundian.2 days = 1} }
+		#Si existe HOLAND
+		if = {
+			limit = { 
+				AND = { 
+					NOT = {  exists = NED }
+					exists = HOL
+				}
+			}
+			HOL = { country_event = { id = hydra_burgundian.2 days = 1} }
+		}
+		#Si existe NEDERLANDS
+		if = {
+			limit = { 
+				exists = NED
+			}
+			NED = { country_event = { id = hydra_burgundian.2 days = 1} }
+		}
     }
 }
 

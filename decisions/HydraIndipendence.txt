@@ -1,0 +1,38 @@
+country_decisions = {
+
+	HydraIndipendence= {
+		color = { 255  255  0 }
+		major = yes
+		potential = {
+			is_subject_of_type = personal_union
+			is_year = 1444
+			not = { is_year = 1446 }
+			
+		}
+		#provinces_to_highlight = {	
+		#}
+		allow = {
+			ai = no
+		}
+		effect = {
+			overlord = { break_union = ROOT }
+			if = {
+				limit = {
+					tag = SWE
+				}
+				overlord = { break_union = NOR }
+			}
+			define_ruler = {
+				claim = 100
+				name = "Tito "
+				#dynasty = "Tudor"
+				#culture = english
+				adm = 3
+				dip = 3
+				mil = 3
+				age = 24
+			}
+		}
+		ai_importance = 0
+	}
+}

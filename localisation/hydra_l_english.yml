@@ -28,3 +28,8 @@
  close_area_8_modifier:0 "Uncivilized Region"
  close_area_9_modifier:0 "Uncivilized Region"
  close_area_10_modifier:0 "Uncivilized Region"
+########################################
+#Decisions#
+########################################
+HydraIndipendence_title: "Declare indipendence"
+HydraIndipendence_desc: "This decision is only able §Rat the start of the game§"
