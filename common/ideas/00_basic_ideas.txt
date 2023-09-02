@@ -635,7 +635,7 @@ court_ideas = {
 
 	bonus = {
 		#all_estate_possible_privileges = 1
-		all_power_cost = 0.025
+		all_power_cost = -0.025
 	}
 
 	court_embassies = {
@@ -893,7 +893,7 @@ plutocracy_ideas = {
 	}
 	knowledge_transfer = {
 		mil_tech_cost_modifier = -0.1
-		infantry_power = 0.05
+		infantry_power = 0.1 #0.5
 	}
 	pragmatism = {
 		mercenary_manpower = 0.20
@@ -1310,13 +1310,14 @@ quantity_ideas = {
 	category = MIL
 	
 	bonus = {
-		land_morale = 0.10
+		#land_morale = 0.10
+		regiment_manpower_usage = -0.05
 	}
 	mass_army = {
 		global_manpower_modifier = 0.33
 	}
 	the_young_can_serve = {
-		manpower_recovery_speed = 0.20
+		manpower_recovery_speed = 0.33
 	}
 	grand_army = {
 		land_forcelimit_modifier = 0.25

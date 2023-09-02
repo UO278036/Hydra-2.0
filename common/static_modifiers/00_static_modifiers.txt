@@ -293,7 +293,7 @@ patriarch_state = {
 patriarch_authority_local = {
 	local_unrest = -3
 	local_manpower_modifier = 0.2
-	regiment_manpower_usage = -0.1
+	regiment_manpower_usage = -0.05
 }
 
 #for the country

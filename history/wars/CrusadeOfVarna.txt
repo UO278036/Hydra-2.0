@@ -6,11 +6,13 @@ war_goal = {
 
 1443.1.1 = {
 	add_attacker = HUN
-	add_attacker = SER
+	#add_attacker = SER
+	add_defender = SER
 	add_attacker = POL
 	add_attacker = LIT
 	add_attacker = BOS
-	add_attacker = WAL
+	#add_attacker = WAL
+	add_defender = WAL
 	add_attacker = MOL
 	add_attacker = VEN
 	add_attacker = PAP
@@ -47,13 +49,16 @@ war_goal = {
 
 1444.11.11 = {
 	rem_attacker = HUN
-	rem_attacker = SER
+	#rem_attacker = SER
+	rem_defender = SER
 	rem_attacker = POL
 	rem_attacker = LIT
 	rem_attacker = BOS
-	rem_attacker = WAL
+	#rem_attacker = WAL
+	rem_defender = WAL
 	rem_attacker = VEN
 	rem_attacker = PAP
 	rem_attacker = MAM
 	rem_defender = TUR
+	
 }

@@ -174,7 +174,8 @@ age_of_discovery = {
 				tag = TUR
 			}
 			modifier = {
-				leader_siege = 1 
+				leader_siege = 1
+				artillery_level_modifier = 0.5
 			}
 			ai_will_do = {
 				factor = 100
@@ -200,6 +201,7 @@ age_of_discovery = {
 			}
 			modifier = {
 				reduced_liberty_desire = 30
+				morale_damage = 0.1
 			}
 			ai_will_do = {
 				factor = 100
@@ -216,10 +218,12 @@ age_of_discovery = {
 		ab_venice_ship_trade = {
 		
 			allow = {
-				tag = VEN
+				#tag = VEN
+				culture_group = iberian
 			}
 			modifier = {
-				global_ship_trade_power = 0.5
+				#global_ship_trade_power = 0.5
+				trade_efficiency = 0.25
 			}
 			ai_will_do = {
 				factor = 100
@@ -379,10 +383,14 @@ age_of_reformation = {
 
 		ab_spain_shock_tactics = {
 			allow = {
-				tag = SPA
+				OR = {
+					tag = SPA
+					tag = CAS
+				}
 			}
 			modifier = {
-				leader_land_shock = 1
+				leader_land_fire = 1
+				shock_damage_received = -0.1
 			}
 			ai_will_do = {
 				factor = 100
@@ -574,6 +582,8 @@ age_of_absolutism = {
 			}
 			modifier = {
 				max_absolutism_effect = 0.3
+				max_absolutism = 30
+				yearly_absolutism = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -585,6 +595,7 @@ age_of_absolutism = {
 			}
 			modifier = {
 				trade_steering = 0.33
+				heavy_ship_hull_size = 0.1
 			}
 			ai_will_do = {
 				factor = 100
