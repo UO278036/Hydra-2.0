@@ -1,0 +1,27 @@
+﻿l_english:
+# powers_and_ideas_l_english
+information_tooltips_MODIFIER_MERCENARY_MANPOWER:1 "Límite de Fuerzas de Mercenarios"
+# cradle_of_civilization_l_english
+information_tooltips_ARMY_PROFESSIONALISM_STATIC_MODIFIERS_DESC:1 "§YGanancia Inmediata:§!\nContratar General: §G+1%§!\nContratar Mercenario: §R-0.2%§!"
+# EU4_l_english
+information_tooltips_tunis:0 "Costa Berberisca"
+information_tooltips_persia:0 "Tabriz"
+information_tooltips_lahore:0 "Herat"
+information_tooltips_basra:0 "Golfo Pérsico"
+information_tooltips_gulf_of_aden:0 "Mar Rojo"
+information_tooltips_obj_30_development_city_desc:0 "Posee y controla una provincia central con al menos §Y25§! desarrollo."
+information_tooltips_obj_30_development_city_tooltip:0 "Provincia central con desarrollo de §Y25§!\n"
+information_tooltips_obj_many_vassals_desc:0 "Tener al menos tres vasallos diferentes al mismo tiempo."
+# areas_regions_l_english
+information_tooltips_morea_area:0 "Grecia"
+information_tooltips_morea_area_name:0 "Morea"
+information_tooltips_morea_area_adj:0 "Moreano"
+information_tooltips_northern_greece_area:0 "Grecia del Norte"
+information_tooltips_northern_greece_area_name:0 "Tesalia"
+information_tooltips_northern_greece_area_adj:0 "Tesaliano"
+information_tooltips_cukurova_area:0 "Akdeniz"
+information_tooltips_cukurova_area_name:0 "Çukurova"
+information_tooltips_cukurova_area_adj:0 "Çukurovano"
+information_tooltips_erzurum_area:0 "Armenia Occidental"
+information_tooltips_erzurum_area_name:0 "Erzurum"
+information_tooltips_erzurum_area_adj:0 "Erzurumiano"

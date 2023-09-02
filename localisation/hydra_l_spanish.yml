@@ -1,0 +1,37 @@
+﻿l_spanish:
+########################################
+# Eventos #
+########################################
+information_tooltips_hydra_burgundian.2.t:0 "Sucesión de Borgoña"
+information_tooltips_hydra_burgundian.2.d:0 "Sucesión de Borgoña, puedes heredar algunas tierras."
+information_tooltips_hydra_burgundian.2.a:0 "Las provincias libres siempre son buenas"
+#information_tooltips_hydra_no_hugbox.1.t:0 "Dependencia de nuestros aliados"
+#information_tooltips_hydra_no_hugbox.1.d:0 "Tener tantos aliados nos hace dependientes de ellos, y ahora estamos viendo las consecuencias."
+#information_tooltips_hydra_no_hugbox.1.a:0 "Nuestra administración depende de nuestros aliados"
+#information_tooltips_hydra_no_hugbox.1.b:0 "Nuestro ejército depende de nuestros aliados"
+#information_tooltips_hydra_no_hugbox.1.c:0 "Nuestra supervivencia depende de nuestros aliados"
+
+########################################
+# Modificadores #
+########################################
+information_tooltips_hydra_key_mediterrenean_island_modifier:0 "Isla Clave del Mediterráneo"
+information_tooltips_hydra_straits_of_messina_modifier:0 "Estrecho de Mesina"
+information_tooltips_hydra_austrian_main_port_modifier:0 "Puerto Principal Austriaco"
+information_tooltips_hydra_austrian_main_port_modifier_desc:0 "Este modificador desaparecerá si la provincia no está bajo control austriaco"
+information_tooltips_hydra_adriatic_entrance_modifier:0 "Entrada al Mar Adriático"
+information_tooltips_close_area_0_modifier:0 "Región de Mapa Completamente Cerrada"
+information_tooltips_close_area_1_modifier:0 "Región no Civilizada"
+information_tooltips_close_area_3_modifier:0 "Región no Civilizada"
+information_tooltips_close_area_4_modifier:0 "Región no Civilizada"
+information_tooltips_close_area_5_modifier:0 "Región no Civilizada"
+information_tooltips_close_area_6_modifier:0 "Región no Civilizada"
+information_tooltips_close_area_7_modifier:0 "Región no Civilizada"
+information_tooltips_close_area_8_modifier:0 "Región no Civilizada"
+information_tooltips_close_area_9_modifier:0 "Región no Civilizada"
+information_tooltips_close_area_10_modifier:0 "Región no Civilizada"
+
+########################################
+# Decisiones #
+########################################
+information_tooltips_HydraIndipendence_title: "Declarar Independencia"
+information_tooltips_HydraIndipendence_desc: "Esta decisión solo está disponible §Ren el inicio del juego§."

@@ -1,0 +1,15 @@
+entity = { clone = "muslimgfx_INFANTRY_1"        name = "CAZ_INFANTRY_1"	version = "2" }
+entity = { clone = "indiangfx_CAVALRY_1"   		 name = "CAZ_CAVALRY_1"		version = "2" }
+entity = { clone = "muslimgfx_ARTILLERY_1"       name = "CAZ_ARTILLERY_1"	version = "2" }
+
+entity = { clone = "muslimgfx_INFANTRY_2"        name = "CAZ_INFANTRY_2"	version = "2" }
+entity = { clone = "indiangfx_CAVALRY_2"		 name = "CAZ_CAVALRY_2" 	version = "2" }
+entity = { clone = "muslimgfx_ARTILLERY_2"       name = "CAZ_ARTILLERY_2"	version = "2" }
+
+entity = { clone = "muslimgfx_INFANTRY_3"        name = "CAZ_INFANTRY_3"	version = "2" }
+entity = { clone = "indiangfx_CAVALRY_3"		 name = "CAZ_CAVALRY_3" 	version = "2" }
+entity = { clone = "muslimgfx_ARTILLERY_3"       name = "CAZ_ARTILLERY_3"	version = "2" }
+
+entity = { clone = "westerngfx_INFANTRY_4"       name = "CAZ_INFANTRY_4"	version = "2" }
+entity = { clone = "westerngfx_CAVALRY_4"		 name = "CAZ_CAVALRY_4"		version = "2" }
+entity = { clone = "westerngfx_INFANTRY_4"       name = "CAZ_ARTILLERY_4"	version = "2" }

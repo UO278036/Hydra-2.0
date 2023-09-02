@@ -1,0 +1,2 @@
+AUE = "countries/AustrianEmpire.txt"	
+CAZ = "countries/CartagineseEmpire.txt"	

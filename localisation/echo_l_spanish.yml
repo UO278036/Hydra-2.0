@@ -1,0 +1,117 @@
+﻿l_spanish:
+ ####################
+ # Mapa
+ ####################
+ heptanesa_area:0 "Heptanesa"
+ heptanesa_area_name:0 "Ionia"
+ heptanesa_area_adj:0 "Iónico"
+ ####################
+ # Decisiones
+ ####################
+ # Contador de Desarrollo
+ echo_development_counter_title:0 "Mejoras Totales en Desarrollo"
+ echo_development_counter_desc:0 ""
+ echo_development_counter_tt:0 "Mejoras en Desarrollo:\n\nDesarrollo £adm£ obtenido: §G[Root.echo_adm_dev_counter.GetValue]§!\nDesarrollo £dip£ obtenido: §G[Root.echo_dip_dev_counter.GetValue]§!\nDesarrollo £mil£ obtenido: §G[Root.echo_mil_dev_counter.GetValue]§!\n\nTotal de Desarrollo Obtenido: §G[Root.echo_total_dev_counter.GetValue]§!"
+ echo_development_counter_tt_updater:0 "Añadir contador de §YMejora en Desarrollo§!".
+ # Inversión Provincial
+ echo_provincial_investment_title:0 "Emitir Inversión Provincial"
+ echo_provincial_investment_desc:0 ""
+ echo_provincial_investment_tt:0 "Crea un Centro de Producción en una provincia que cumpla con los requisitos."
+ ####################
+ # Modificadores
+ ####################
+ # Modificadores de Provincia
+ echo_dnieper_buh_estuary_pmod:0 "Estuario Dnieper-Buh"
+ desc_echo_dnieper_buh_estuary_pmod:0 "Controlar los importantes estuarios de los ríos Dnieper y Buh fortalece nuestro control sobre el comercio en la región."
+ echo_production_hub_grain_pmod:0 "Granero Grande"
+ desc_echo_production_hub_grain_pmod:0 ""
+ echo_production_hub_livestock_pmod:0 "Pastoreo Libre"
+ desc_echo_production_hub_livestock_pmod:0 ""
+ echo_production_hub_naval_supplies_pmod:0 "Astillero Principal"
+ desc_echo_production_hub_naval_supplies_pmod:0 ""
+ # Modificadores de País
+ echo_por_colonist:0 "Política Colonial Portuguesa"
+ desc_echo_por_colonist:0 ""
+ ####################
+ # Eventos
+ ####################
+ echo.3.t:0 "Un Nuevo Centro de Producción en [Root.GetName]!"
+ echo.3.d:0 ""
+ echo.3.a:0 "Una gran oportunidad."
+ echo.3.b:0 "Tal vez en otro momento."
+ # Modificadores Activados
+ We_stand_alone:0 "Estamos Solos"
+ Ahead_of_time:0 "Adelantados en el Tiempo"
+ HRE_backup:0 "Legado del Emperador"
+ War_chest:0 "Cofre de Guerra"
+ Minor:0 "Poder Emergente"
+ # Centros de Comercio
+ regional_port:0 "Puerto Regional"
+ regional_port_desc:0 ""
+ regional_hub:0 "Centro Regional"
+ regional_hub_desc:0 ""
+ world_port_2:0 "Límite de Centro de Comercio"
+ world_port_2_desc:0 ""
+ world_trade_center_2:0 "Límite de Centro de Comercio"
+ world_trade_center_2_desc:0 ""
+ ########################modificadores#########################################
+ echo_commandant_cooldown:0 "Enfriamiento del Líder Inspirador"
+ echo_commandant_cooldown_tooltip:0 "Tal vez en otro momento..."
+ echo_grand_captain_cooldown:0 "Enfriamiento del Gran Capitán"
+ echo_grand_captain_cooldown_tooltip:0 "Tal vez en otro momento..."
+ echo_armyreform_cooldown:0 "No nos adelantemos demasiado..."
+ echo_armyreform_cooldowntooltip:0 "Tal vez en otro momento..."
+ echo_muslim_school_cooldown:0 "Enfriamiento del Erudito"
+ trade_hub_created:0 "Centro de Comercio Creado Recientemente"
+ trade_hub_created_2:0 "Centro de Comercio Creado Recientemente"
+ ###################decisiones##############################################
+ # Exploración
+ free_colonist_title:0 "Colonizador Libre"
+ free_colonist_desc:0 ""
+ sm_hire_conquistador_title:0 "Contratar a un Conquistador Extranjero"
+ sm_hire_conquistador_desc:0 "El reciente descubrimiento del Nuevo Mundo ha llevado a una carrera por explorar y establecer nuevas rutas comerciales. Debemos asegurarnos de ser los primeros en establecer colonias en estas nuevas tierras. Hay conquistadores extranjeros disponibles para contratar con este propósito."
+ sm_hire_explorer_title:0 "Contratar a un Explorador Extranjero"
+ sm_hire_explorer_desc:0 "El reciente descubrimiento del Nuevo Mundo ha llevado a una carrera por explorar y establecer nuevas rutas comerciales. Debemos asegurarnos de ser los primeros en establecer colonias en estas nuevas tierras. Hay exploradores extranjeros disponibles para contratar con este propósito."
+ # Eventos Críticos
+ echo_critical_events_title:0 "Eventos Críticos Disponibles"
+ echo_critical_events_desc:0 "Comprueba qué eventos críticos todavía están disponibles. Una marca de verificación verde indica que está disponible y una cruz roja indica que ya ha ocurrido."
+ echo_radical_reform_decision:0 "Reformas Radicales"
+ echo_military_reform_decision:0 "Reformas Militares"
+ echo_commandant_decision:0 "Líder Inspirador"
+ echo_grand_captain_decision:0 "Gran Capitán"
+ # Edad de Oro
+ urbanisation:0 "Edad de Oro (Económica)"
+ urbanisation_title:0 "Edad de Oro (Económica)"
+ urbanisation_desc:0 "50 años de costo de poder reducido y aumento de la producción de bienes. Ya no forma parte de la habilidad normal de la Edad de Oro."
+ # Asesor Militar
+ echo_recruit_military_advisor_title:0 "Contratar Asesor Militar"
+ echo_recruit_military_advisor_desc:0 ""
+ # Centros de Comercio
+ Create_a_Trade_Hub_title:0 "Crear un Centro de Comercio"
+ Create_a_Trade_Hub_desc:0 "Al menos una de nuestras provincias se ha convertido en un centro de comercio y podría convertirse en un centro de comercio, según dicen nuestros comerciantes. Sin embargo, necesitarían alguna inversión para que esto suceda."
+ ##################################eventos########################################
+ # Desarrollo Interno
+ echo.2.t:0 "Desarrollo Interno"
+ echo.2.d:0 "Enfoque en desarrollo interno durante los próximos 15 años."
+ echo.2.a:0 "De acuerdo."
+ # Asesor Militar
+ echo.1.title:0 "Contratar Asesor Militar"# Mil Advisor
+information_tooltips_echo.1.title:0 "Contratar Asesor Militar"
+information_tooltips_echo.1.desc:0 "Utiliza los recursos del estado para encontrar un asesor adecuado. Desplázate hacia abajo para obtener más información."
+information_tooltips_echo.1.a:0 "Contratar Comandante"
+information_tooltips_echo.1.b:0 "Contratar Reformador del Ejército"
+information_tooltips_echo.1.c:0 "Contratar Maestro de Reclutamiento"
+information_tooltips_echo.1.d:0 "Contratar Instructor de Perforación"
+information_tooltips_echo.1.e:0 "Contratar Especialista en Sitios"
+information_tooltips_echo.1.f:0 "Contratar Líder de Infantería"
+information_tooltips_echo.1.g:0 "Contratar Líder de Caballería"
+information_tooltips_echo.1.h:0 "Contratar Gran Capitán"
+information_tooltips_echo.1.i:0 "Contratar Experto en Fortificaciones"
+information_tooltips_echo.1.j:0 "Contratar Intendente"
+information_tooltips_echo.1.k:0 "Contratar Oficial de Artillería"
+information_tooltips_echo.1.l:0 "Contratar Organizador del Ejército"
+information_tooltips_echo.1.m:0 "No hacer nada"
+# Trade Centre
+information_tooltips_echo.4.t:0 "¡Un Nuevo Centro de Comercio!"
+information_tooltips_echo.4.d:0 "Después de algunas deliberaciones, nuestros comerciantes han logrado convertir $PROVINCE$ en un centro de comercio."
+information_tooltips_echo.4.a:0 "Bueno."

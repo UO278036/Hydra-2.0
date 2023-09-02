@@ -1,0 +1,8 @@
+government = republic
+government_rank = 2
+primary_culture = tunisian
+technology_group = western
+national_focus = ADM
+
+
+
