@@ -1,0 +1,50 @@
+namespace = hydra_flavor
+
+province_event = {
+	id = hydra_flavor.1
+	title = hydra_flavor.1.t
+	desc = hydra_flavor.1.desc
+	picture = DIPLOMACY_eventPicture
+	
+	hidden = yes
+
+    trigger = {
+		OR = {
+			AND = { #cuando hay que ponerlo
+				province_id = 4738
+				owned_by = HAB
+				NOT = { has_province_modifier = hydra_austrian_main_port_modifier }
+			}
+			AND = { #cuando hay que sacarlo
+				province_id = 4738
+				NOT = { owned_by = HAB }
+				has_province_modifier = hydra_austrian_main_port_modifier
+				
+			}
+		}
+    }
+	
+	immediate = {
+
+	}
+	
+	option = {
+		name = hydra_flavor.1.a
+		trigger = {
+			NOT = {
+				has_province_modifier = hydra_austrian_main_port_modifier
+			}
+		}
+		add_province_modifier = { 
+			name = hydra_austrian_main_port_modifier
+			duration = -1  
+		}
+	}
+	option = {
+		name = hydra_flavor.1.b
+		trigger = {
+			has_province_modifier = hydra_austrian_main_port_modifier
+		}
+		remove_province_modifier = hydra_austrian_main_port_modifier
+	}
+}

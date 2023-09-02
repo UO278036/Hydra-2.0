@@ -43,6 +43,7 @@ world_port = {
     province_modifiers = {
         province_trade_power_value = 40
         local_institution_spread = 0.3
+        development_cost_modifier = -0.05
     }
     state_modifiers = {
         local_development_cost = -0.10
@@ -61,7 +62,8 @@ world_port_2 = {
     type = coastal
     province_modifiers = {
         province_trade_power_value = 60
-        local_institution_spread = 0.3
+        local_institution_spread = 0.5
+        development_cost_modifier = -0.1
     }
     state_modifiers = {
         local_development_cost = -0.15
@@ -118,6 +120,7 @@ world_trade_center = {
     province_modifiers = {
         province_trade_power_value = 40
         local_institution_spread = 0.5
+        development_cost_modifier = -0.05
     }
     state_modifiers = {
         local_development_cost = -0.10
@@ -138,6 +141,7 @@ world_trade_center_2 = {
     province_modifiers = {
         province_trade_power_value = 60
         local_institution_spread = 0.5
+        development_cost_modifier = -0.01
     }
     state_modifiers = {
         local_development_cost = -0.15

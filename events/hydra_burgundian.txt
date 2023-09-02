@@ -19,7 +19,7 @@ country_event = {
     }
 
     option = {
-        name = "Aceptar"
+        name = hydra_burgundian.1.a
 
         low_countries_region = {
 			limit = { country_or_non_sovereign_subject_holds = BUR } 
@@ -100,7 +100,7 @@ country_event = {
     }
 	
 	option = {
-		name = hydra_burgundian.a
+		name = hydra_burgundian.2.a
 		add_prestige = 10
 	}
 }

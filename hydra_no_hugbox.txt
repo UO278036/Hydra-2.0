@@ -1,0 +1,157 @@
+# namespace = hydra_no_hugbox
+
+# ###we stand alone dev event####
+# country_event = {
+#     id = hydra_no_hugbox.1
+#     title = hydra_no_hugbox.1.t
+#     desc = hydra_no_hugbox.1.d
+#     picture = OPRICHINA_eventPicture
+
+#     trigger = {
+
+# 			any_country = {
+# 				total_development = ROOT
+# 			}
+			
+# 			num_of_allies = 1 
+# 			any_ally = { was_player = yes }
+# 			#NOT = { is_hegemon = yes }
+# 			NOT = { is_colonial_nation = yes }	
+# 			NOT = { is_lacking_institutions = yes }
+# 			#is_at_war = no
+# 			#any_war_enemy_country = { ai = no }
+# 			NOT = { 
+# 				any_neighbor_country = {
+# 					 	truce_with = ROOT
+# 						has_opinion_modifier = {
+# 							modifier = vassal_abandoned
+# 							who = FROM
+# 						}
+				
+# 				}	
+# 			}	
+# 			any_ally = { 
+# 				ai = no
+# 			}
+# 			#every_country = { }
+# 			#every_ally = { }
+# 			#
+# 				#num_of_allies = ROOT
+# 				#ai = no
+# 			NOT = { has_country_modifier = hydra_no_hugbox_1_modifier }	
+# 			NOT = { has_country_modifier = hydra_no_hugbox_2_modifier }	
+# 			NOT = { has_country_modifier = hydra_no_hugbox_3_modifier }	
+#     }
+#     mean_time_to_happen = {
+#         months = 600 #50 años
+# 		modifier = {
+# 			factor = 0.5 
+# 			is_hegemon = yes
+# 		}
+# 		#modifier = { #Si tenes MENOS dev que tu aliado (vasallo en la practica)
+# 		#	factor = 0.5 #10,5 años
+# 		#	any_ally = { total_development = ROOT } #no creo que funque
+# 		#}
+# 		modifier = {
+# 			factor = 0.5 
+# 			is_bankrupt = yes
+# 		}
+
+# 		#modifier = { #un aliado humano
+# 		#	factor = 1.5 #75 años
+# 		#	not = { num_of_allies = 2 }
+# 		#}
+# 		#modifier = { #un aliado IA otro jugador
+# 		#	factor = 1.5 #75 años
+# 		#	num_of_allies = 2
+# 		#	not = { num_of_allies = 3 }
+# 		#	any_ally = { ai = yes }
+# 		#}
+# 		#modifier = { #Dos aliados jugadores
+# 		#	factor = 1 #50 años
+# 		#	num_of_allies = 2
+# 		#	not = { num_of_allies = 3 }
+# 		#	every_ally = { ai = no }
+# 		#}
+# 		#modifier = { #un aliado IA otro jugador
+# 		#	factor = 1.5 #75 años
+# 		#	num_of_allies = 3
+# 		#	not = { num_of_allies = 4 }
+# 		#	any_ally = { ai = yes }
+# 		#}
+# 		#modifier = { #Dos aliados jugadores
+# 		#	factor = 1 #50 años
+# 		#	num_of_allies = 2
+# 		#	not = { num_of_allies = 3 }
+# 		#	every_ally = { ai = no }
+# 		#}
+# 		### Me rindo con sacar la cuenta exacta y armar todas las posibilidades, ago algo mas generico abajo ###
+# 		modifier = { 
+# 			factor = 0.8
+# 			num_of_allies = 2
+# 			every_ally = { ai = no }
+# 		}
+# 		modifier = { 
+# 			factor = 0.8
+# 			num_of_allies = 3
+# 		}
+# 		modifier = { 
+# 			factor = 0.8
+# 			num_of_allies = 4
+# 		}
+# 		modifier = { 
+# 			factor = 0.8
+# 			num_of_allies = 5
+# 		}
+# 		modifier = { 
+# 			factor = 0.8
+# 			num_of_allies = 6
+# 		}
+# 		modifier = { 
+# 			factor = 0.8
+# 			num_of_allies = 7
+# 		}
+# 		modifier = { 
+# 			factor = 0.8
+# 			num_of_allies = 8
+# 		}
+		
+# 	}
+	
+#     option = {
+# 		name = hydra_no_hugbox.1.a
+# 		trigger = {
+# 			is_at_war = no
+# 			is_bankrupt = no
+# 		}
+# 		add_country_modifier = {
+# 			name = hydra_no_hugbox_1_modifier
+# 			duration = 3650
+# 		}
+# 		add_stability = -1
+# 	}
+# 	option = {
+# 		name = hydra_no_hugbox.1.b
+# 		trigger = {
+# 			is_at_war = yes
+# 			is_bankrupt = no
+# 		}
+# 		add_country_modifier = {
+# 			name = hydra_no_hugbox_2_modifier
+# 			duration = 3650
+# 		}
+# 		add_army_tradition = -25
+# 		add_navy_tradition = -25
+# 	}
+# 	option = {
+# 		name = hydra_no_hugbox.1.c
+# 		trigger = {
+# 			is_bankrupt = yes
+# 		}
+# 		add_country_modifier = {
+# 			name = hydra_no_hugbox_3_modifier
+# 			duration = 3650
+# 		}
+# 		add_inflation = 5
+# 	}
+# }

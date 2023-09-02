@@ -11,7 +11,7 @@ hydra_straits_of_messina_modifier = {
 }
 hydra_austrian_main_port_modifier = {
 	province_trade_power_value = 10
-	development_cost = -0.10
+	development_cost = -0.25
 	#picture = "estuary_icon"
 }
 hydra_adriatic_entrance_modifier = {
@@ -52,4 +52,14 @@ close_area_9_modifier = {
 }
 close_area_10_modifier = {
 	min_local_autonomy = 100
+}
+hydra_no_hugbox_1_modifier = {
+	all_power_cost = +0.05
+}
+hydra_no_hugbox_2_modifier = {
+	discipline = -0.05
+}
+hydra_no_hugbox_3_modifier = {
+	yearly_corruption = +0.20
+	defensiveness = -0.30
 }

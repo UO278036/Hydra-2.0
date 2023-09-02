@@ -1,0 +1,30 @@
+﻿l_english:
+########################################
+#events#
+########################################
+ hydra_burgundian.2.t:0 "Burgundian Succession"
+ hydra_burgundian.2.d:0 "Burgundian Succession, you may inherit somelands."
+ hydra_burgundian.2.a:0 "Free provinces is always good"
+ #hydra_no_hugbox.1.t:0 "Dependance in ower allies"
+ #hydra_no_hugbox.1.d:0 "Having so many allies will make us dependent on them, and now we are seeing the consequences."
+ #hydra_no_hugbox.1.a:0 "Our administration depends on our allies"
+ #hydra_no_hugbox.1.b:0 "Our army is dependent on our allies
+ #hydra_no_hugbox.1.c:0 "Our survival depends on our allies"
+########################################
+#modifiers#
+########################################
+ hydra_key_mediterrenean_island_modifier:0 "Key Mediterrenean Island"
+ hydra_straits_of_messina_modifier:0 "Strait of Messina"
+ hydra_austrian_main_port_modifier:0 "Main Austrian Port"
+ hydra_austrian_main_port_modifier_desc:0 "This modifier will disapier if the province is not under Austrian control"
+ hydra_adriatic_entrance_modifier:0 "Entrance to the Adriatic sea"
+ close_area_0_modifier:0 "Completly close map region"
+ close_area_1_modifier:0 "Uncivilized Region"
+ close_area_3_modifier:0 "Uncivilized Region"
+ close_area_4_modifier:0 "Uncivilized Region"
+ close_area_5_modifier:0 "Uncivilized Region"
+ close_area_6_modifier:0 "Uncivilized Region"
+ close_area_7_modifier:0 "Uncivilized Region"
+ close_area_8_modifier:0 "Uncivilized Region"
+ close_area_9_modifier:0 "Uncivilized Region"
+ close_area_10_modifier:0 "Uncivilized Region"
