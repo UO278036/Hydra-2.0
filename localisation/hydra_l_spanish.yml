@@ -1,9 +1,10 @@
-﻿########################################
+﻿l_spanish:
+########################################
 # Eventos #
 ########################################
-hydra_burgundian.2.t:0 "Sucesión Borgoñona"
-hydra_burgundian.2.d:0 "Sucesión Borgoñona, puedes heredar algunas tierras."
-hydra_burgundian.2.a:0 "Las provincias libres siempre son buenas"
+ hydra_burgundian.2.t:0 "Sucesión Borgoñona"
+ hydra_burgundian.2.d:0 "Sucesión Borgoñona, puedes heredar algunas tierras."
+ hydra_burgundian.2.a:0 "Las provincias libres siempre son buenas"
 # hydra_no_hugbox.1.t:0 "Dependencia de nuestros aliados"
 # hydra_no_hugbox.1.d:0 "Tener tantos aliados nos hará dependientes de ellos, y ahora estamos viendo las consecuencias."
 # hydra_no_hugbox.1.a:0 "Nuestra administración depende de nuestros aliados"
@@ -12,23 +13,23 @@ hydra_burgundian.2.a:0 "Las provincias libres siempre son buenas"
 ########################################
 # Modificadores #
 ########################################
-hydra_key_mediterrenean_island_modifier:0 "Isla Clave del Mediterráneo"
-hydra_straits_of_messina_modifier:0 "Estrecho de Mesina"
-hydra_austrian_main_port_modifier:0 "Puerto Principal Austriaco"
-hydra_austrian_main_port_modifier_desc:0 "Este modificador desaparecerá si la provincia no está bajo control austriaco"
-hydra_adriatic_entrance_modifier:0 "Entrada al mar Adriático"
-close_area_0_modifier:0 "Región del mapa completamente cerrada"
-close_area_1_modifier:0 "Región no civilizada"
-close_area_3_modifier:0 "Región no civilizada"
-close_area_4_modifier:0 "Región no civilizada"
-close_area_5_modifier:0 "Región no civilizada"
-close_area_6_modifier:0 "Región no civilizada"
-close_area_7_modifier:0 "Región no civilizada"
-close_area_8_modifier:0 "Región no civilizada"
-close_area_9_modifier:0 "Región no civilizada"
-close_area_10_modifier:0 "Región no civilizada"
+ hydra_key_mediterrenean_island_modifier:0 "Isla Clave del Mediterráneo"
+ hydra_straits_of_messina_modifier:0 "Estrecho de Mesina"
+ hydra_austrian_main_port_modifier:0 "Puerto Principal Austriaco"
+ hydra_austrian_main_port_modifier_desc:0 "Este modificador desaparecerá si la provincia no está bajo control austriaco"
+ hydra_adriatic_entrance_modifier:0 "Entrada al mar Adriático"
+ close_area_0_modifier:0 "Región del mapa completamente cerrada"
+ close_area_1_modifier:0 "Región no civilizada"
+ close_area_3_modifier:0 "Región no civilizada"
+ close_area_4_modifier:0 "Región no civilizada"
+ close_area_5_modifier:0 "Región no civilizada"
+ close_area_6_modifier:0 "Región no civilizada"
+ close_area_7_modifier:0 "Región no civilizada"
+ close_area_8_modifier:0 "Región no civilizada"
+ close_area_9_modifier:0 "Región no civilizada"
+ close_area_10_modifier:0 "Región no civilizada"
 ########################################
 # Decisiones #
 ########################################
-HydraIndipendence_title: "Declarar independencia"
-HydraIndipendence_desc: "Esta decisión solo está disponible §Ral comienzo del juego§"
+ HydraIndipendence_title: "Declarar independencia"
+ HydraIndipendence_desc: "Esta decisión solo está disponible §Ral comienzo del juego§"

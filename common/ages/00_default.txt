@@ -219,7 +219,7 @@ age_of_discovery = {
 		
 			allow = {
 				#tag = VEN
-				culture_group = iberian
+				culture_group = italian
 			}
 			modifier = {
 				#global_ship_trade_power = 0.5
@@ -591,11 +591,14 @@ age_of_absolutism = {
 		}
 		ab_dutch_trade = {
 			allow = {
-				tag = NED
+				OR = {
+					tag = NED
+					tag = HOL
+				}
 			}
 			modifier = {
 				trade_steering = 0.33
-				heavy_ship_hull_size = 0.1
+				hull_size_modifier = 0.1
 			}
 			ai_will_do = {
 				factor = 100
@@ -618,23 +621,28 @@ age_of_absolutism = {
 
 		ab_manchu_banner = {
 			allow = {
+				#OR = {
+				#	tag = MCH
+				#	tag = QNG
+				#}
 				OR = {
-					tag = MCH
-					tag = QNG
+					#tag = FKN
+					tag = ROT
 				}
 			}
 			effect = {
-				if = {
-					limit = {
-						NOT = { primary_culture = manchu }
-						NOT = { primary_culture = manchu_new }
-						NOT = { has_government_attribute = allow_banners }
-					}
-					custom_tooltip = ab_manchu_banner_tt
-				}
+				#if = {
+				#	limit = {
+				#		NOT = { primary_culture = manchu }
+				#		NOT = { primary_culture = manchu_new }
+				#		NOT = { has_government_attribute = allow_banners }
+				#	}
+				#	custom_tooltip = ab_manchu_banner_tt
+				#}
 			}
 			modifier = {
-				amount_of_banners = 0.5
+				#amount_of_banners = 0.5
+				#extra_manpower_at_religious_war = yes
 			}
 			ai_will_do = {
 				factor = 100
@@ -813,6 +821,8 @@ age_of_revolutions = {
 			}
 			modifier = {
 				max_admiral_fire = 1
+				max_admiral_maneuver = 1
+
 			}
 			ai_will_do = {
 				factor = 100
@@ -823,7 +833,8 @@ age_of_revolutions = {
 				tag = RUS
 			}
 			modifier = {
-				min_autonomy_in_territories = -0.1
+				#min_autonomy_in_territories = -0.1
+				regiment_manpower_usage = -0.05
 			}	
 			ai_will_do = {
 				factor = 100

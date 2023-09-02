@@ -17730,3 +17730,84 @@ UKR_ideas = {
 		yearly_patriarch_authority = 0.005
 	}
 }
+CAZ_ideas = {
+	start = {
+		may_perform_slave_raid = yes
+	}
+	bonus = {
+		land_morale = 0.10
+	}
+	trigger = {
+		tag = CAZ
+	}
+	free = yes
+
+	caz_1 = {
+		naval_forcelimit_modifier = 0.2
+		naval_maintenance_modifier= -0.2
+	}
+	caz_2 = { #from HAB_ideas
+		trade_efficiency = 0.1
+		caravan_power = 0.2
+		global_prov_trade_power_modifier = 0.10		
+	}
+	caz_3 = {
+		naval_morale = 0.15
+		navy_tradition = 1
+	}
+	caz_4 = {
+		global_sailors_modifier = 0.35
+	}
+	caz_5 = {
+		development_cost = -0.15
+		inflation_reduction = 0.35
+	}
+	caz_6 = {
+		heavy_ship_power = 0.1
+		galley_power = 0.1
+	}
+	caz_7 = {
+		production_efficiency = 0.1
+	}
+}
+AUE_ideas = {
+	start = {
+		land_morale = 0.15
+		inflation_reduction = 0.05
+	}	
+	bonus = {
+		discipline = 0.05
+	}
+	trigger = {
+		OR = {
+			tag = AUE
+		}
+	}
+	free = yes		#will be added at load.
+	aue_1 = {
+		production_efficiency = 0.1		
+	}
+	aue_2 = {
+		fort_maintenance_modifier = -0.10
+		defensiveness = 0.1
+	}
+	aue_3 = {
+		global_prov_trade_power_modifier = 0.10
+		trade_steering = 0.10
+	}
+	aue_4 = {
+		num_accepted_cultures = 2
+		global_manpower_modifier = 0.25
+	}
+	aue_5 = {
+		prestige = 1
+	}
+	aue_6 = {
+		heir_chance = 0.33
+		legitimacy = 0.33
+	}
+	aue_7 = {
+		idea_cost = -0.025
+		technology_cost = -0.025
+	}
+}
