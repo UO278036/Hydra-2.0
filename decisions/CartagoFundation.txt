@@ -1,0 +1,59 @@
+country_decisions = {
+
+	cartagoFundation = {
+		major = yes
+		tag = CAZ
+		owns = 341
+		NOT = { capital = 341 }
+		potential = {
+			was_never_end_game_tag_trigger = yes
+			ai = no
+			tag = CAZ
+			NOT = { has_country_flag = relocated_capital_constantinople }
+		}
+		
+		allow = {
+			controls = 341
+			is_at_war = no
+			adm_power = 50
+			NOT = { capital = 341}
+			NOT = { has_country_flag = relocated_capital_constantinople }
+		}
+		effect = {	
+			set_country_flag = relocated_capital_constantinople
+			add_adm_power = -50
+			add_stability = 1
+			add_core = 341
+			341 = {
+				move_capital_effect = yes
+				change_culture = tunisian
+				change_religion = ROOT
+				rename_capital = Cartago
+			}
+			341 = {
+				add_base_tax = 5
+				add_base_production = 5
+				add_base_manpower = 5
+				change_province_name = "Carthago Nova"
+			}
+				if = {
+					hidden_effect = {
+						every_province = {
+							limit = {
+								OR = {
+									province_id = 341	
+								}
+							}
+							
+							change_trade_goods = gold
+							
+						}
+					}					
+				}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

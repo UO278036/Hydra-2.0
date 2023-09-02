@@ -1,0 +1,6 @@
+#A Kingdom Collection mod
+#This code is obfuscated, but not in bad faith.  I am very open to cooperation but do not use my work for deriving work without permission.
+#For any legal reasons e.g. if you believe the mod includes any work without the consent of that modder, the non-obfuscated version will be provided.
+#If the mod stops beeing maintained, it will be made open-source.
+#Contact: Best over Discord Reloader#6504 or as last resort contact another contributor.
+CAZ_sprite_pack = {  country_trigger = { tag = CAZ } sprite_infantry = { 0 = CAZ_INFANTRY_1 1 = CAZ_INFANTRY_2 2 = CAZ_INFANTRY_3 3 = CAZ_INFANTRY_4 } sprite_cavalry = { 0 = CAZ_CAVALRY_1 1 = CAZ_CAVALRY_2 2 = CAZ_CAVALRY_3 3 = CAZ_CAVALRY_4 } sprite_artillery = { 0 = CAZ_ARTILLERY_1 1 = CAZ_ARTILLERY_2 2 = CAZ_ARTILLERY_3 3 = CAZ_ARTILLERY_4 } }

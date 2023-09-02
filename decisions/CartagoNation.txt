@@ -1,0 +1,87 @@
+country_decisions = {
+
+	cartago_nation = {
+		major = yes
+		potential = {
+		tag = MOR
+		NOT = { exists = CAZ }
+			
+		}
+		provinces_to_highlight = {
+			province_id = 4561
+			province_id = 335
+			province_id = 341
+			province_id = 4562
+			province_id = 337
+			province_id = 2461
+			province_id = 2473
+			province_id = 1882
+			province_id = 338
+			province_id = 339
+			province_id = 2455
+			province_id = 2453	
+		}
+		allow = {
+			adm_tech = 5
+			is_free_or_tributary_trigger = yes
+			owns_core_province = 4561
+			owns_core_province = 335
+			owns_core_province = 341
+			owns_core_province = 4562
+			owns_core_province = 337
+			owns_core_province = 2461
+			owns_core_province = 2473
+			owns_core_province = 1882
+			owns_core_province = 338
+			owns_core_province = 339
+			owns_core_province = 2455
+			owns_core_province = 2453	
+			is_subject = no
+			is_nomad = no
+			stability = 0
+			is_at_war = no
+		}
+		effect = {
+			change_tag = CAZ
+			stability = 3
+			add_prestige = 25
+			change_government_to_republic = yes
+			change_technology_group = western
+			add_legitimacy = 100
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+			if = {
+				limit = { NOT = { accepted_culture = russian } }
+				add_accepted_culture = tunisian 
+				add_accepted_culture = moroccan
+				add_accepted_culture = berber
+				add_accepted_culture = algerian
+			}
+
+			if = 
+				swap_non_generic_missions = no
+			}
+			
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					has_custom_ideas = no
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+		}
+		every_owned_province = {
+			change_religion = hellenic
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}	
+	
+	
+}
