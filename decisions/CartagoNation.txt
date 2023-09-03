@@ -3,9 +3,8 @@ country_decisions = {
 	cartago_nation = {
 		major = yes
 		potential = {
-		tag = MOR
-		NOT = { exists = CAZ }
-			
+			tag = MOR
+			NOT = { exists = CAZ }	
 		}
 		provinces_to_highlight = {
 			OR = {
@@ -33,7 +32,7 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_subject = no
 			is_nomad = no
-			stability = 0
+			stability = 1
 			is_at_war = no
 
 			owns_core_province = 4561
@@ -81,9 +80,9 @@ country_decisions = {
 			#	add_accepted_culture = algerian
 			#}
 
-			if = {
+			#if = {
 				swap_non_generic_missions = no
-			}
+			#}
 			
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {

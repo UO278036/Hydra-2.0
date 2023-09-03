@@ -17733,10 +17733,11 @@ UKR_ideas = {
 CAZ_ideas = {
 	start = {
 		development_cost = -0.05
-		idea_cost = 0.1
+		idea_cost = -0.1
 	}
 	bonus = {
-		discipline = 0.025
+		land_morale = 0.10
+		#discipline = 0.025
 	}
 	trigger = {
 		tag = CAZ
@@ -17749,12 +17750,11 @@ CAZ_ideas = {
 	}
 	caz_2 = { #from HAB_ideas
 		trade_efficiency = 0.1
-		caravan_power = 0.2
-		#global_prov_trade_power_modifier = 0.10		
+		caravan_power = 0.2	
 	}
 	caz_3 = {
 		naval_morale = 0.10
-		land_morale = 0.10
+		global_prov_trade_power_modifier = 0.10	
 	}
 	caz_4 = {
 		global_sailors_modifier = 0.35
@@ -17774,7 +17774,7 @@ CAZ_ideas = {
 }
 AUE_ideas = {
 	start = {
-		land_morale = 0.15
+		land_morale = 0.10
 		inflation_reduction = 0.05
 	}	
 	bonus = {
@@ -17788,28 +17788,31 @@ AUE_ideas = {
 	free = yes		#will be added at load.
 	aue_1 = {
 		production_efficiency = 0.1		
+		reinforce_speed = 0.33
 	}
 	aue_2 = {
 		fort_maintenance_modifier = -0.10
-		defensiveness = 0.1
+		defensiveness = 0.15
 	}
 	aue_3 = {
 		global_prov_trade_power_modifier = 0.10
-		trade_steering = 0.10
+		#trade_steering = 0.10
 	}
 	aue_4 = {
 		num_accepted_cultures = 2
-		global_manpower_modifier = 0.25
+		global_manpower_modifier = 0.1
+		land_forcelimit_modifier = 0.1
 	}
 	aue_5 = {
 		prestige = 1
+		interest = -0.5
 	}
 	aue_6 = {
 		heir_chance = 0.33
-		legitimacy = 0.33
+		#legitimacy = 0.33
 	}
 	aue_7 = {
-		idea_cost = -0.025
-		technology_cost = -0.025
+		idea_cost = -0.05
+		technology_cost = -0.05
 	}
 }

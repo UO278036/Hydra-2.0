@@ -1,96 +1,50 @@
 country_decisions = {
-
+	
 	austrian_nation = {
 		major = yes
 		potential = {
-		owns_core_province = 134
-		NOT = { exists = AUE }
-			
+			primary_culture = austrian
+			NOT = { exists = AUE }
 		}
 		provinces_to_highlight = {
 			owns_core_province = 134	# Viena
-		}
-		allow = {
-			adm_tech = 13
-			is_free_or_tributary_trigger = yes
-			owns_core_province = 134	# Viena
-			senior_union_with = HUN
-			is_subject = no
-			is_nomad = no
-			stability = 1
-			is_at_war = no
-		}
-		effect = {
-			change_tag = AUE
-			inherit = HUN
-			if = {
-				limit = { NOT = { accepted_culture = hungarian } }
-				add_accepted_culture = hungarian
-			}
-			if = 
-				swap_non_generic_missions = no
-			}
-			
-			hungarian_region = {
-					add_permanent_claim = AUE
-				}
-			remove_non_electors_emperors_from_empire_effect = yes
-			if = {
-				limit = { NOT = { government_rank = 2 } }
-				set_government_rank = 2
-			}
-			if = {
-				limit = {
-					has_custom_ideas = no
-				}
-				country_event = { id = ideagroups.1 } #Swap Ideas
-			}
-			custom_tooltip = spanish_unification_effect.tooltip
-			hidden_effect = {
-				iberia_region = {
-					limit = {
-						NOT = { area = alentejo_area }
-						NOT = { area = beieras_area }
+			OR = {
+				province_id = 134
+				province_id = 153
+				any_province = { 
+					OR = {
+						culture = hungarian
+						culture = slovak
+						culture = transylvanian
 					}
-					add_permanent_claim = SPA
 				}
 			}
-			add_country_modifier = {
-				name = "centralization_modifier"
-				duration = 7300
-			}
-			set_country_flag = formed_spain_flag
-			add_prestige = 50
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		ai_importance = 400
-	}	
-	
-	austrian_nation_diplimatic = {
-		major = yes
-		potential = {
-		owns_core_province = 134
-		NOT = { exists = AUE }
-			
-		}
-		provinces_to_highlight = {
-			owns_core_province = 134	# Viena
 		}
 		allow = {
-			adm_tech = 13
+			is_part_of_hre = no
+			adm_tech = 10
 			is_free_or_tributary_trigger = yes
 			owns_core_province = 134	# Viena
 			owns_core_province = 153	# Viena
-			owns_core_province = 4236	# Viena
-			owns_core_province = 4127	# Viena
-			owns_core_province = 1864	# Viena
-			owns_core_province = 132	# Viena
+			#owns_core_province = 4236	# Viena
+			#owns_core_province = 4127	# Viena
+			#owns_core_province = 1864	# Viena
+			#owns_core_province = 132	# Viena
 			is_subject = no
 			is_nomad = no
 			stability = 1
 			is_at_war = no
+			num_of_owned_provinces_with = {
+				value = 10
+				has_owner_accepted_culture = yes
+				OR = {
+					culture = hungarian
+					culture = slovak
+					culture = transylvanian
+				}
+				
+			}
+
 		}
 		effect = {
 			change_tag = AUE
@@ -98,9 +52,17 @@ country_decisions = {
 				limit = { NOT = { accepted_culture = hungarian } }
 				add_accepted_culture = hungarian
 			}
-			if = 
-				swap_non_generic_missions = no
+			if = {
+				limit = { NOT = { accepted_culture = slovak } }
+				add_accepted_culture = slovak
 			}
+			if = {
+				limit = { NOT = { accepted_culture = transylvanian } }
+				add_accepted_culture = transylvanian
+			}
+			#if = {
+				swap_non_generic_missions = no
+			#}
 			
 			hungarian_region = {
 					add_permanent_claim = AUE
@@ -116,22 +78,16 @@ country_decisions = {
 				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
-			custom_tooltip = spanish_unification_effect.tooltip
+			#custom_tooltip = spanish_unification_effect.tooltip
 			hidden_effect = {
-				iberia_region = {
-					limit = {
-						NOT = { area = alentejo_area }
-						NOT = { area = beieras_area }
-					}
-					add_permanent_claim = SPA
-				}
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-			set_country_flag = formed_spain_flag
-			add_prestige = 50
+			#set_country_flag = formed_spain_flag
+			add_prestige = 10
+			set_government_rank = 3
 		}
 		ai_will_do = {
 			factor = 1
