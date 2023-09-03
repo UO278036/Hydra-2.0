@@ -855,7 +855,7 @@ NED_ideas = {
 	}
 	platoon_fire = {
 		fire_damage = 0.20
-		artillery_power = 0.05
+		#artillery_power = 0.05
 	}
 }
 
@@ -17732,10 +17732,11 @@ UKR_ideas = {
 }
 CAZ_ideas = {
 	start = {
-		may_perform_slave_raid = yes
+		development_cost = -0.05
+		idea_cost = 0.1
 	}
 	bonus = {
-		land_morale = 0.10
+		discipline = 0.025
 	}
 	trigger = {
 		tag = CAZ
@@ -17743,24 +17744,25 @@ CAZ_ideas = {
 	free = yes
 
 	caz_1 = {
-		naval_forcelimit_modifier = 0.2
-		naval_maintenance_modifier= -0.2
+		naval_forcelimit_modifier = 0.1
+		infantry_cost = -0.10
 	}
 	caz_2 = { #from HAB_ideas
 		trade_efficiency = 0.1
 		caravan_power = 0.2
-		global_prov_trade_power_modifier = 0.10		
+		#global_prov_trade_power_modifier = 0.10		
 	}
 	caz_3 = {
-		naval_morale = 0.15
-		navy_tradition = 1
+		naval_morale = 0.10
+		land_morale = 0.10
 	}
 	caz_4 = {
 		global_sailors_modifier = 0.35
+		naval_maintenance_modifier= -0.2
 	}
 	caz_5 = {
-		development_cost = -0.15
-		inflation_reduction = 0.35
+		defensiveness = 0.15
+		max_hostile_attrition = 1
 	}
 	caz_6 = {
 		heavy_ship_power = 0.1

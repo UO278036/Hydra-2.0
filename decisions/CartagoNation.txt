@@ -21,9 +21,10 @@ country_decisions = {
 				province_id = 339
 				province_id = 2455
 				province_id = 2453
+				#
 				area = sicily_area
 				area = western_sicily_area
-				area = western_mediterrenean_area
+				area = corsica_sardinia_area
 				area = baleares_area
 			}
 		}
@@ -46,14 +47,21 @@ country_decisions = {
 			owns_core_province = 338
 			owns_core_province = 339
 			owns_core_province = 2455
-			owns_core_province = 2453	
-			owns_all_provinces = {
-				area = sicily_area
-				area = western_sicily_area
-				area = western_mediterrenean_area
-				area = baleares_area
-			}
-
+			owns_core_province = 2453
+			#	
+			owns_core_province = 124 
+			owns_core_province = 126 
+			owns_core_province = 2982
+			owns_core_province = 125 
+			owns_core_province = 4736 
+			owns_core_province = 4737
+			owns_core_province = 127 
+			owns_core_province = 1247 
+			owns_core_province = 2986 
+			owns_core_province = 4735
+			owns_core_province = 333 
+			owns_core_province = 4559 
+			owns_core_province = 4560
 		}
 		effect = {
 			change_tag = CAZ

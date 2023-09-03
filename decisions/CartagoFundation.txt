@@ -9,7 +9,7 @@ country_decisions = {
 			was_never_end_game_tag_trigger = yes
 			ai = no
 			tag = CAZ
-			NOT = { has_country_flag = relocated_capital_constantinople }
+			NOT = { has_country_flag = relocated_capital_tunez }
 		}
 		
 		allow = {
@@ -17,13 +17,13 @@ country_decisions = {
 			is_at_war = no
 			adm_power = 50
 			NOT = { capital = 341}
-			NOT = { has_country_flag = relocated_capital_constantinople }
+			NOT = { has_country_flag = relocated_capital_tunez }
 		}
 		effect = {	
-			set_country_flag = relocated_capital_constantinople
+			set_country_flag = relocated_capital_tunez
 			add_adm_power = -50
-			add_stability = 1
-			add_core = 341
+			#add_stability = 1
+			#add_core = 341
 			341 = {
 				move_capital_effect = yes
 				change_culture = tunisian
@@ -31,9 +31,9 @@ country_decisions = {
 				rename_capital = Cartago
 			}
 			341 = {
-				add_base_tax = 5
-				add_base_production = 5
-				add_base_manpower = 5
+				add_base_tax = 1
+				add_base_production = 2
+				add_base_manpower = 2
 				change_province_name = "Carthago Nova"
 			}
 				if = {
@@ -45,7 +45,7 @@ country_decisions = {
 								}
 							}
 							
-							change_trade_goods = gold
+							change_trade_goods = silk
 							
 						}
 					}					

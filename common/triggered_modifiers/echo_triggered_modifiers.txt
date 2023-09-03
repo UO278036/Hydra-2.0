@@ -58,7 +58,7 @@ Minor = {
 			NOT = { is_lacking_institutions = yes }
 	}
 	all_power_cost = -0.025
-	development_cost_modifier = -0.5
+	development_cost_modifier = -0.05
 	own_territory_dice_roll_bonus = 1
 }
 
