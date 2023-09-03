@@ -21,7 +21,7 @@ country_decisions = {
 			}
 		}
 		allow = {
-			is_part_of_hre = no
+			not = { is_part_of_hre = yes }
 			adm_tech = 10
 			is_free_or_tributary_trigger = yes
 			owns_core_province = 134	# Viena
