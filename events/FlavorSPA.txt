@@ -30,7 +30,7 @@ country_event = {
 					is_subject = no
 					is_neighbor_of = ROOT
 					NOT = { is_in_war = { casus_belli = cb_independence_war } }
-					government = monarchy
+					#government = monarchy
 				}
 			}
 			AND = {
@@ -62,6 +62,12 @@ country_event = {
 	option = {		# Let us bind their Dynasty to ours
 		name = "flavor_spa.EVTOPTA3716"
 		ai_chance = { factor = 90 }
+		if = {
+			limit = {
+				ARA = { NOT = { government = monarchy } }
+			}
+			ARA = { change_government = monarchy }
+		}
 		if = {
 			limit = { tag = CAS }
 			create_union = ARA

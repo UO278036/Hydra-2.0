@@ -3,4 +3,14 @@
  CAZ_ADJ:0 "Cartagines"
  AUE:0 "Austro-Hungria"
  AUE_ADJ:0 "Austro-Hungaro"
- 
+ ############
+ #DESICIONES#
+ ############
+ austrian_nation_title:0 "Formar Austro-Hungria"  
+ austrian_nation_desc:0 "Unificaremos nuestras dos grandes naciones en un gran Imperio."
+
+ cartago_nation_title:0 "Formar Cartago"
+ cartago_nation_desc:0 "Volveremos a recuperar la gloria de lo que un dia fue nuestro gran imperio"
+
+ cartagoFundation_title:0 "El renacer del Imperio Cartagines"
+ cartagoFundation_desc:0 "Con el trabajo de nuestros grandes ciudadanos volveremos la gloria al norte de Africa!"

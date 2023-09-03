@@ -5,9 +5,9 @@ country_decisions = {
 		potential = {
 			primary_culture = austrian
 			NOT = { exists = AUE }
+			NOT = { has_country_flag = formed_AUE_flag }
 		}
 		provinces_to_highlight = {
-			owns_core_province = 134	# Viena
 			OR = {
 				province_id = 134
 				province_id = 153
@@ -25,11 +25,8 @@ country_decisions = {
 			adm_tech = 10
 			is_free_or_tributary_trigger = yes
 			owns_core_province = 134	# Viena
-			owns_core_province = 153	# Viena
-			#owns_core_province = 4236	# Viena
-			#owns_core_province = 4127	# Viena
-			#owns_core_province = 1864	# Viena
-			#owns_core_province = 132	# Viena
+			owns_core_province = 153	# Pest
+
 			is_subject = no
 			is_nomad = no
 			stability = 1
@@ -48,6 +45,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = AUE
+			on_change_tag_effect = yes
 			if = {
 				limit = { NOT = { accepted_culture = hungarian } }
 				add_accepted_culture = hungarian
@@ -60,34 +58,28 @@ country_decisions = {
 				limit = { NOT = { accepted_culture = transylvanian } }
 				add_accepted_culture = transylvanian
 			}
-			#if = {
-				swap_non_generic_missions = no
-			#}
-			
+
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 3
+
 			hungarian_region = {
 					add_permanent_claim = AUE
 				}
-			remove_non_electors_emperors_from_empire_effect = yes
-			if = {
-				limit = { NOT = { government_rank = 2 } }
-				set_government_rank = 2
-			}
 			if = {
 				limit = {
 					has_custom_ideas = no
 				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
-			#custom_tooltip = spanish_unification_effect.tooltip
 			hidden_effect = {
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-			#set_country_flag = formed_spain_flag
 			add_prestige = 10
-			set_government_rank = 3
+			set_country_flag = formed_AUE_flag
 		}
 		ai_will_do = {
 			factor = 1
