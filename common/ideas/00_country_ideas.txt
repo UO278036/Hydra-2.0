@@ -2190,7 +2190,7 @@ MAM_ideas = {
 	}
 	monuments_to_greatness = {
 		prestige = 1
-		cavalry_cost = -10
+		cavalry_cost = -0.10
 	}
 	purchase_new_mamelukes = {
 		manpower_recovery_speed = 0.15

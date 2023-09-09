@@ -28,6 +28,8 @@
  close_area_8_modifier:0 "Uncivilized Region"
  close_area_9_modifier:0 "Uncivilized Region"
  close_area_10_modifier:0 "Uncivilized Region"
+ hydra_swe_merc_company_1_modifier:0 "Elit hakkapeliita cavalry parcialy integrated in the army"
+ hydra_swe_merc_company_2_modifier:0 "Elit hakkapeliita cavalry completly integrated in the army"
 ########################################
 #Decisions#
 ########################################

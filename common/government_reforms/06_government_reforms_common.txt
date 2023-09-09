@@ -240,7 +240,8 @@ penal_colonies_reform = {
 		}
 	}
 	trigger = {
-		has_idea_group = exploration_ideas
+		#has_idea_group = exploration_ideas
+		num_of_colonists = 1
 	}
 	modifiers = {
 		expel_minorities_cost = -1

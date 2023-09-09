@@ -6,8 +6,8 @@ Minor = {
 	}
 	trigger  = {
 		OR = {
-			#great_power_rank = 5
-			is_great_power = no
+			great_power_rank = 4 
+			#is_great_power = no
 			}
 			any_country = {
 				total_development = ROOT
@@ -15,40 +15,48 @@ Minor = {
 			if = {
 				limit = { current_age = age_of_discovery }
 				custom_trigger_tooltip = {
-					tooltip = at_least_15_provinces_on_same_continent
-					num_of_owned_provinces_with = {
-						same_continent = ROOT
-						value = 15
+					tooltip = less_than_15_provinces_on_same_continent
+					NOT = {
+						num_of_owned_provinces_with = {
+							same_continent = ROOT
+							value = 15
+						}
 					}
 				}
 			}
 			if = {
 				limit = { current_age = age_of_reformation }
 				custom_trigger_tooltip = {
-					tooltip = at_least_25_provinces_on_same_continent
-					num_of_owned_provinces_with = {
-						same_continent = ROOT
-						value = 25
+					tooltip = less_than_25_provinces_on_same_continent
+					NOT = {
+						num_of_owned_provinces_with = {
+							same_continent = ROOT
+							value = 25
+						}
 					}
 				}
 			}
 			if = {
 				limit = { current_age = age_of_absolutism }
 				custom_trigger_tooltip = {
-					tooltip = at_least_35_provinces_on_same_continent
-					num_of_owned_provinces_with = {
-						same_continent = ROOT
-						value = 35
+					tooltip = less_than_35_provinces_on_same_continent
+					NOT = {
+						num_of_owned_provinces_with = {
+							same_continent = ROOT
+							value = 35
+						}
 					}
 				}
 			}
 			if = {
 				limit = { current_age = age_of_revolutions }
 				custom_trigger_tooltip = {
-					tooltip = at_least_50_provinces_on_same_continent
+					tooltip = less_than_50_provinces_on_same_continent
+					NOT = {
 					num_of_owned_provinces_with = {
 						same_continent = ROOT
 						value = 50
+						}
 					}
 				}
 			}

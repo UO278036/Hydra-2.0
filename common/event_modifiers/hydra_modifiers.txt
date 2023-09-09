@@ -63,3 +63,11 @@ hydra_no_hugbox_3_modifier = {
 	yearly_corruption = +0.20
 	defensiveness = -0.30
 }
+hydra_swe_merc_company_1_modifier = {
+	movement_speed = 0.10
+	#shock_damage = 0.10
+}
+hydra_swe_merc_company_2_modifier = {
+	#movement_speed = 0.10
+	shock_damage = 0.10
+}

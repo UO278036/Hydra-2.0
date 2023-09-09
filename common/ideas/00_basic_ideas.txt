@@ -483,7 +483,7 @@ spy_ideas = {
 	}
 	espionage = {
 		technology_cost = -0.1
-		assault_fort_ability = 0.33
+		assault_fort_ability = 0.25
 	}
 	destabilising_efforts = {
 		movement_speed = 0.15
@@ -1078,7 +1078,7 @@ offensive_ideas = {
 		infantry_power = 0.1
 	}
 	fort_breaker = {
-		assault_fort_ability = 0.33
+		assault_fort_ability = 0.25
 		assault_fort_cost_modifier = -1
 		artillery_barrage_cost = -0.25
 	}

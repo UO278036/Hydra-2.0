@@ -15,13 +15,17 @@ country_decisions = {
 			ai = no
 		}
 		effect = {
-			overlord = { break_union = ROOT }
+			#overlord = { break_union = ROOT } #no puede estar primero porque no funcionaria el overlord de noruega, ya que suecia ya no tendria
 			if = {
 				limit = {
 					tag = SWE
 				}
-				overlord = { break_union = NOR }
+				overlord = { break_union = NOR } #funciona mientras overlord = { break_union = ROOT } este abajo, arriba rompe
+				#NOR = { overlord = { break_union = NOR } } #no testeado
+				#DAN = { break_union = NOR } #funciona
 			}
+			overlord = { break_union = ROOT }
+
 			define_ruler = {
 				claim = 100
 				name = "Tito "

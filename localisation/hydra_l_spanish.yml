@@ -28,6 +28,8 @@
  close_area_8_modifier:0 "Región no civilizada"
  close_area_9_modifier:0 "Región no civilizada"
  close_area_10_modifier:0 "Región no civilizada"
+ hydra_swe_merc_company_1_modifier:0 "Caballeria de Elite hakkapeliita parcialmente integrada al ejercito"
+ hydra_swe_merc_company_2_modifier:0 "Caballeria de Elite hakkapeliita completamente integrada al ejercito"
 ########################################
 # Decisiones #
 ########################################
