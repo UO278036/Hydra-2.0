@@ -5127,7 +5127,7 @@ swe_sca_hakkapeliitta_slot = {
 			#}
 			add_country_modifier = {
 				name = hydra_swe_merc_company_2_modifier
-				duration = 9125
+				duration = -1
 			}
 		}
 	}

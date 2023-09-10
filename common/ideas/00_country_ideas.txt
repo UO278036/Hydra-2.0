@@ -17796,7 +17796,6 @@ AUE_ideas = {
 	}
 	aue_3 = {
 		global_prov_trade_power_modifier = 0.10
-		#trade_steering = 0.10
 	}
 	aue_4 = {
 		num_accepted_cultures = 2
@@ -17809,7 +17808,7 @@ AUE_ideas = {
 	}
 	aue_6 = {
 		heir_chance = 0.33
-		#legitimacy = 0.33
+		legitimacy = 0.33
 	}
 	aue_7 = {
 		idea_cost = -0.05

@@ -3,19 +3,26 @@ country_decisions = {
 	austrian_nation = {
 		major = yes
 		potential = {
+			OR = {
+				was_never_end_game_tag_trigger = yes
+				tag = hab
+				tag = hun
+			}
 			primary_culture = austrian
 			NOT = { exists = AUE }
 			NOT = { has_country_flag = formed_AUE_flag }
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 134
-				province_id = 153
+				#province_id = 134 # Viena
+				#province_id = 153 # Pest
 				any_province = { 
 					OR = {
 						culture = hungarian
 						culture = slovak
 						culture = transylvanian
+						culture = austrian
+						culture = czech
 					}
 				}
 			}
@@ -24,24 +31,32 @@ country_decisions = {
 			not = { is_part_of_hre = yes }
 			adm_tech = 10
 			is_free_or_tributary_trigger = yes
-			owns_core_province = 134	# Viena
-			owns_core_province = 153	# Pest
+			#owns_core_province = 134	# Viena
+			#owns_core_province = 153	# Pest
 
 			is_subject = no
 			is_nomad = no
-			stability = 1
+			#stability = 1
 			is_at_war = no
 			num_of_owned_provinces_with = {
 				value = 10
-				has_owner_accepted_culture = yes
+				#has_owner_accepted_culture = yes
 				OR = {
 					culture = hungarian
 					culture = slovak
 					culture = transylvanian
 				}
-				
 			}
-
+			num_of_owned_provinces_with = {
+				value = 5
+				#has_owner_accepted_culture = yes
+				culture = austrian
+			}
+			num_of_owned_provinces_with = {
+				value = 5
+				#has_owner_accepted_culture = yes
+				culture = czech 
+			}
 		}
 		effect = {
 			change_tag = AUE
@@ -49,6 +64,14 @@ country_decisions = {
 			if = {
 				limit = { NOT = { accepted_culture = hungarian } }
 				add_accepted_culture = hungarian
+			}
+			if = {
+				limit = { NOT = { accepted_culture = austrian } }
+				add_accepted_culture = austrian
+			}
+			if = {
+				limit = { NOT = { accepted_culture = czech } }
+				add_accepted_culture = czech
 			}
 			if = {
 				limit = { NOT = { accepted_culture = slovak } }
@@ -80,6 +103,27 @@ country_decisions = {
 			}
 			add_prestige = 10
 			set_country_flag = formed_AUE_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+
+	abdicate_the_empire_nation = {
+		major = yes
+		potential = {
+			is_emperor = yes
+			#tag = HAB
+			#NOT = { has_country_flag = emperor_flag }
+		}
+		allow = {
+			#tag = HAB
+			ai = no
+		}
+		effect = {
+			set_emperor = no
+			add_imperial_influence = -20
 		}
 		ai_will_do = {
 			factor = 1

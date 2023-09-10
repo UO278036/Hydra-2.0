@@ -3,6 +3,7 @@ country_decisions = {
 	cartago_nation = {
 		major = yes
 		potential = {
+			was_never_end_game_tag_trigger = yes
 			tag = MOR
 			NOT = { exists = CAZ }	
 			NOT = { has_country_flag = formed_CAZ_flag }

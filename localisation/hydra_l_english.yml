@@ -33,5 +33,7 @@
 ########################################
 #Decisions#
 ########################################
-HydraIndipendence_title: "Declare indipendence"
-HydraIndipendence_desc: "This decision is only able §Rat the start of the game§"
+ HydraIndipendence_title: "Declare indipendence"
+ HydraIndipendence_desc: "This decision is only able §Rat the start of the game§"
+ abdicate_the_empire_nation_title: "Abdicate the Empire"
+ abdicate_the_empire_nation_desc: "You will stop being emperor of the SIR"
