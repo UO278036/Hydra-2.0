@@ -13,19 +13,23 @@ country_decisions = {
 			NOT = { has_country_flag = formed_AUE_flag }
 		}
 		provinces_to_highlight = {
-			OR = {
+			#OR = {
 				#province_id = 134 # Viena
 				#province_id = 153 # Pest
-				any_province = { 
-					OR = {
-						culture = hungarian
-						culture = slovak
-						culture = transylvanian
-						culture = austrian
-						culture = czech
-					}
-				}
-			}
+				#any_province = { 
+					#OR = {
+						#culture = hungarian
+						#culture = slovak
+						#culture = transylvanian
+						#culture = austrian
+						#culture = czech
+					#}
+				#}
+			#}
+			#OR = {
+			#	NOT = { owned_by = ROOT }
+			#	NOT = { is_core = ROOT }
+			#}
 		}
 		allow = {
 			not = { is_part_of_hre = yes }
