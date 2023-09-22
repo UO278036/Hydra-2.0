@@ -298,7 +298,7 @@ province_event = { #40 autonomia
 					#region = east_siberia_region
 					#region = west_siberia_region
 					#region = sahel_region
-					#region = niger_region
+					#region = niger_region	
 					#region = guinea_region
 					#region = horn_of_africa_region
 					#region = arabia_region
@@ -357,9 +357,9 @@ province_event = { #40 autonomia
 }
 
 province_event = { #60 autonomia
-	id = hydra_close_map.5
-	title = hydra_close_map.5.t
-	desc = hydra_close_map.5.desc
+	id = hydra_close_map.6
+	title = hydra_close_map.6.t
+	desc = hydra_close_map.6.desc
 	picture = DIPLOMACY_eventPicture
 	
 	hidden = yes
@@ -411,7 +411,7 @@ province_event = { #60 autonomia
 	immediate = {
 	}
 	option = {
-		name = hydra_close_map.5.a
+		name = hydra_close_map.6.a
 		trigger = {
 			NOT = {
 				has_province_modifier = close_area_6_modifier
@@ -423,7 +423,7 @@ province_event = { #60 autonomia
 		}
 	}
 	option = {
-		name = hydra_close_map.5.b
+		name = hydra_close_map.6.b
 		trigger = {
 			has_province_modifier = close_area_6_modifier
 		}

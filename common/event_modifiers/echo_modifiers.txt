@@ -31,6 +31,7 @@ free_colonist = {
 	colonists = 2
 	range = 0.5
 	global_colonial_growth = 15
+	may_explore = yes
 }
 
 urbanisation = {

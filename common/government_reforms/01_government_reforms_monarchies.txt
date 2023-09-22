@@ -405,12 +405,14 @@ absolutist_france_reform = {
 
 	modifiers = {
 		all_estate_influence_modifier = -0.1
+		#all_estate_loyalty_equilibrium = 0.05
 		max_absolutism = 10
-		
+		#yearly_absolutism = 0.5
+		governing_capacity = 100
 	}
 
 	custom_attributes = {
-		centralize_state_development = yes 
+		#centralize_state_development = yes 
 	}
 }
 

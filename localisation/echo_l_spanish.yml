@@ -66,8 +66,9 @@
  trade_hub_created_2:0 "Centro de Comercio Creado Recientemente"
  ###################decisiones##############################################
  # Exploración
- free_colonist_title:0 "Colonizador Libre"
+ free_colonist_title:0 "Colonizador Gratis"
  free_colonist_desc:0 ""
+ free_colonist:0 "Colonizador Gratis"
  sm_hire_conquistador_title:0 "Contratar a un Conquistador Extranjero"
  sm_hire_conquistador_desc:0 "El reciente descubrimiento del Nuevo Mundo ha llevado a una carrera por explorar y establecer nuevas rutas comerciales. Debemos asegurarnos de ser los primeros en establecer colonias en estas nuevas tierras. Hay conquistadores extranjeros disponibles para contratar con este propósito."
  sm_hire_explorer_title:0 "Contratar a un Explorador Extranjero"
