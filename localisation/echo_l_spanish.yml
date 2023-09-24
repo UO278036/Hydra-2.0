@@ -92,9 +92,12 @@
  Create_a_Trade_Hub_desc:0 "Al menos una de nuestras provincias se ha convertido en un centro de comercio y podría convertirse en un centro de comercio, según dicen nuestros comerciantes. Sin embargo, necesitarían alguna inversión para que esto suceda."
  ##################################eventos########################################
  # Desarrollo Interno
- echo.2.t:0 "Desarrollo Interno"
- echo.2.d:0 "Enfoque en desarrollo interno durante los próximos 15 años."
- echo.2.a:0 "De acuerdo."
+ echo.2.t:0 "Estamos Solos"
+ echo.2.d:0 "Estamos Solos, nos negamos a aliarnos con otros paises. Nuestra gente siente la necesidad de trabajar mas duro para sobrevivir en este mundo lleno de hugboxers"
+ echo.2.a:0 "Ok."
+ echo.2.b:0 "Guardar para mas tarde"
+ echo_development:0 "Time for improvements"
+ echo_war:0 "Estamos Solos"
  # Asesor Militar
  echo.1.title:0 "Contratar Asesor Militar"
  echo.1.desc:0 "Utiliza los recursos del estado para encontrar un asesor adecuado. Desplázate hacia abajo para obtener más información."

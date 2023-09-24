@@ -1,7 +1,9 @@
 country_decisions = {
 		
 	urbanisation = {
-		color = { 166  0  0 }
+		#color = { 166  0  0 }
+		#color = { 255  210  0 } #oro
+		color = { 255   130  0 } #naranja
 		potential = {
 			NOT = { has_country_flag = urbanisation_taken }
 			NOT = { has_country_flag = X_POR_economic_golden_age_cflag }
@@ -34,7 +36,8 @@ country_decisions = {
 	}
 	
 	sm_hire_explorer = {
-		color = { 166  0  0 }
+		#color = { 166  0  0 }
+		color = { 20  20  255 } #azul
 		potential = {
 				is_bankrupt = no
 				ai = no
@@ -55,7 +58,8 @@ country_decisions = {
 		}	
 		
 	sm_hire_conquistador = {
-		color = { 166  0  0 }
+		#color = { 166  0  0 }
+		color = { 20  20  255 } #azul
 		potential = {
 				is_bankrupt = no
 				ai = no
@@ -75,7 +79,8 @@ country_decisions = {
 			}	
 		}
 	free_colonist = {
-		color = { 166  0  0 }
+		#color = { 166  0  0 }
+		color = { 20  20  255 } #azul
 		potential = {
 				NOT = {
 					capital_scope = {
@@ -106,7 +111,7 @@ country_decisions = {
 		}
 	}	
 	echo_critical_events = {
-		color = { 166  0  0 }
+		color = { 166  0  0 } #rojo oscuro
 		potential = {
 			ai = no
 		}
@@ -135,7 +140,8 @@ country_decisions = {
 		}
 	}
 	echo_recruit_military_advisor = {
-		color = { 166  0  0 }
+		#color = { 166  0  0 }
+		color = { 20  20  255 } #azul 
 		potential = {
 			ai = no
        }
@@ -150,7 +156,8 @@ country_decisions = {
 		}
 	}
 	Create_a_Trade_Hub = {
-		color = { 166  0  0 }
+		#color = { 166  0  0 }
+		color = { 170  0  255 } #morado
 		potential = {
 			ai = no
 			has_dlc = "Dharma"
@@ -191,7 +198,8 @@ country_decisions = {
 	}
 	
 	echo_provincial_investment = {
-		color = { 166  0  0 }
+		#color = { 166  0  0 }
+		color = { 170  0  255 }#morado
 		potential = { 
 			ai = no
 			NOT = { has_country_modifier = echo_provincial_investment_cmod }
@@ -255,7 +263,7 @@ country_decisions = {
 	}
 
 	echo_development_counter = {
-		color = { 166  0  0 }
+		color = { 166  0  0 } #rojo oscuro
 		potential = { ai = no }
 		allow = {
 			if = {

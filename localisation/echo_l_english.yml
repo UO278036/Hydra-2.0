@@ -92,9 +92,12 @@
  Create_a_Trade_Hub_desc:0 "At least one of our province has become a trade hub and could potentially become a center of trade, our merchants say. They would however, need some investment to make this happen."
  ##################################events########################################
  #internal dev
- echo.2.t:0 "Internal Development"
- echo.2.d:0 "Focus on internal development for the next 15 years."
+ echo.2.t:0 "We stand alone"
+ echo.2.d:0 "We stand alone, we refuse to allie with any other country. Our people feels the need to work harder to survive in a worl full of hugboxers"
  echo.2.a:0 "Ok."
+ echo.2.b:0 "I do not need this now"
+ echo_development:0 "Time for improvements"
+ echo_war:0 "We stand alone"
  #mil advisor
  echo.1.title:0 "Recruit Military Advisor"
  echo.1.desc:0 "Use the state's resources to find an appropriate advisor. Scroll down for more."

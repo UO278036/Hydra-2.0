@@ -92,25 +92,27 @@ country_event = {
     id = echo.2
     title = echo.2.t
     desc = echo.2.d
-    picture = COURT_eventPicture
+    picture = BYZ_BYZANTINE_EMPEROR_eventPicture
 
     trigger = {
 			#has_country_modifier = We_stand_alone
+			has_country_modifier = Ahead_of_time
 			####Envez de necesitar el trigger, personalizo condiciones, dado que ahora el trigger solo se activa en guerra, acambio subo el mean time to happen y ago que cualquiera pueda rolearlo
-			#OR = {
-			#	great_power_rank = 5
-			#	is_great_power = no
-			#}
+			OR = {
+				great_power_rank = 5
+				is_great_power = no
+			}
 			any_country = {
 				total_development = ROOT
 			}
 			
 			NOT = { num_of_allies = 1 }
-			#NOT = { is_hegemon = yes }
+			NOT = { is_hegemon = yes }
 			NOT = { is_colonial_nation = yes }	
 			NOT = { is_lacking_institutions = yes }
-			is_at_war = no
+			#is_at_war = no
 			#any_war_enemy_country = { ai = no }
+			NOT = { ai = yes }
 			NOT = {
 				has_country_modifier = burnt_development
 			}
@@ -123,21 +125,51 @@ country_event = {
 						}
 				
 				}	
-			}	
+			}
 			NOT = {
 				has_country_modifier = echo_development
 			}	
+			NOT = {
+				has_country_modifier = echo_war
+			}
+			#OR = {	
+			#	AND = {	
+			#		not = { has_country_flag = stand_alone_dev_flag }
+			#		is_at_war = no
+			#	}
+			#	AND = {	
+			#		not = { has_country_flag = stand_alone_war_flag }
+			#		is_at_war = yes
+			#	}
+			#}
+
     }
     mean_time_to_happen = {
-        months = 600 #50 años
+        months = 300 #25 años
     }
 	
     option = {
 		name = echo.2.a
-		add_country_modifier = {
+		if = {
+			limit = { is_at_war = no }
+			add_country_modifier = {
 				name = echo_development
-				duration = 3650
+				duration = 1825
 			}
+			#set_country_flag = stand_alone_dev_flag
+		}
+		if = {
+			limit = { is_at_war = yes }
+			add_country_modifier = {
+				name = echo_war
+				duration = 1825
+			}
+			#set_country_flag = stand_alone_war_flag
+		}
+		#set_country_flag = 
+	}
+	option = {
+		name = echo.2.b
 	}
 }
 
