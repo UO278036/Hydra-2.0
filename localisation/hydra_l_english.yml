@@ -10,6 +10,21 @@
  #hydra_no_hugbox.1.a:0 "Our administration depends on our allies"
  #hydra_no_hugbox.1.b:0 "Our army is dependent on our allies
  #hydra_no_hugbox.1.c:0 "Our survival depends on our allies"
+ #Bancarrota
+ hydra_notifications.1.t:0 "[bankrupted_player.GetName] is in §Rbankruptcy§!"
+ hydra_notifications.1.d:0 "Every player in the lobby will get a §Gnotification§! about your §Rbankruptcy§!. Maybe you should prepear for war."
+ hydra_notifications.1.a:0 "We need to prepare for the inevitable."
+ hydra_notifications.2.t:0 "[bankrupted_player.GetName] is in §Rbankruptcy§!"
+ hydra_notifications.2.d:0 "Every player in the lobby received a §Gnotification§! about [bankrupted_player.GetName] §Rbankruptcy§!. We should move fast and size this oportunity for easy land and money before other take it or the bankruptcy expiers. We have 5 years."
+ hydra_notifications.2.a:0 "It sounds like a golden opportunity."
+ #HYDRA_BANKRUPTED_PLAYER_TOOLTIP:0 "Every player will know you are at bankruptcy"
+ #Alianza
+ hydra_notifications.3.t:0 "[alied_player.GetName] make a new §Rallience§!"
+ hydra_notifications.3.d:0 "Every player in the lobby will get a §Gnotification§! about your §Rallience§!. placeholder(1)"
+ hydra_notifications.3.a:0 "placeholder(2)"
+ hydra_notifications.4.t:0 "[alied_player.GetName] make a new §Rallience§!"
+ hydra_notifications.4.d:0 "Every player in the lobby will get a §Gnotification§! about [alied_player.GetName] §Rallience§!. placeholder(3)"
+ hydra_notifications.4.a:0 "placeholder(4)"
 ########################################
 #modifiers#
 ########################################
@@ -21,6 +36,7 @@
  close_area_0_modifier:0 "Completly close map region"
  close_area_1_modifier:0 "Uncivilized Region"
  close_area_3_modifier:0 "Uncivilized Region"
+ close_area_2_modifier:0 "Uncivilized Region"
  close_area_4_modifier:0 "Uncivilized Region"
  close_area_5_modifier:0 "Uncivilized Region"
  close_area_6_modifier:0 "Uncivilized Region"
@@ -37,3 +53,7 @@
  HydraIndipendence_desc: "This decision is only able §Rat the start of the game§"
  abdicate_the_empire_nation_title: "Abdicate the Empire"
  abdicate_the_empire_nation_desc: "You will stop being emperor of the SIR"
+ notifications_off_title:0 "Turn §ROFF§! Hydra §Gnotification§!"
+ notifications_off_desc:0 "Right now you are reciving the Hydra §Gnotification§!"
+ notifications_on_title:0 "Turn §BON§! Hydra §Gnotification§!"
+ notifications_on_desc:0 "Right now you are §RNOT§! reciving the Hydra §Gnotification§!"

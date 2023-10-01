@@ -1349,6 +1349,9 @@ on_replace_governor = {
 
 # country
 on_bankruptcy = {
+	events = {
+		hydra_notifications.1
+	}
 }
 
 # country (country annexing, root = target)
@@ -5603,8 +5606,8 @@ on_centralized_state = {
 			owner = { has_government_attribute = centralize_state_no_reform_cost }
 		}
 		owner = {
-			add_adm_power = 50
-			change_government_reform_progress = 50
+			add_adm_power = 25
+			change_government_reform_progress = 5
 		}
 	}
 	else_if = {
@@ -5612,8 +5615,8 @@ on_centralized_state = {
 			owner = { has_government_attribute = centralize_state_half_refund }
 		}
 		owner = {
-			add_adm_power = 25
-			change_government_reform_progress = 25
+			add_adm_power = 10
+			#change_government_reform_progress = 25
 		}
 	}
 	if = {
@@ -5882,7 +5885,9 @@ on_royal_marriage_broken = { #ROOT - Original marriage creator, FROM - Marriage 
 }
 
 on_alliance_created = { #ROOT - Alliance sender, FROM - Alliance accepter
-
+	# events = {
+	# 	hydra_notifications.3
+	# }
 }
 
 on_royal_marriage = { #ROOT - Marraige sender, FROM - marriage accepter

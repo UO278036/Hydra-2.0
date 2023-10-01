@@ -91,7 +91,12 @@ province_event = { #50 autonomia
 					superregion = south_america_superregion
 					#superregion = southern_africa_superregion
 					superregion = oceania_superregion
-					#superregion = india_superregion
+					###superregion = india_superregion
+					#region = coromandel_region
+					#region = deccan_region
+					#region = bengal_region
+					#region = west_india_region
+					#region = hindusthan_region
 
 				}
 				NOT = {
@@ -164,7 +169,12 @@ province_event = { #Africa; 30 autonomia
 					#superregion = south_america_superregion
 					superregion = southern_africa_superregion
 					#superregion = oceania_superregion
-					#superregion = india_superregion
+					###superregion = india_superregion
+					#region = coromandel_region
+					#region = deccan_region
+					#region = bengal_region
+					#region = west_india_region
+					#region = hindusthan_region
 
 				}
 				NOT = {
@@ -239,7 +249,12 @@ province_event = { #20 autonomia
 					#superregion = south_america_superregion
 					#superregion = southern_africa_superregion
 					#superregion = oceania_superregion
-					#superregion = india_superregion
+					###superregion = india_superregion
+					#region = coromandel_region
+					#region = deccan_region
+					#region = bengal_region
+					#region = west_india_region
+					#region = hindusthan_region
 
 				}
 				NOT = {
@@ -314,7 +329,12 @@ province_event = { #40 autonomia
 					#superregion = south_america_superregion
 					#superregion = southern_africa_superregion
 					#superregion = oceania_superregion
-					#superregion = india_superregion
+					###superregion = india_superregion
+					#region = coromandel_region
+					#region = deccan_region
+					#region = bengal_region
+					#region = west_india_region
+					#region = hindusthan_region
 
 				}
 				NOT = {
@@ -389,8 +409,24 @@ province_event = { #60 autonomia
 					#superregion = south_america_superregion
 					#superregion = southern_africa_superregion
 					#superregion = oceania_superregion
-					superregion = india_superregion
-
+					###superregion = india_superregion
+					#region = coromandel_region
+					#region = deccan_region
+					region = bengal_region
+					region = west_india_region
+					region = hindusthan_region
+					# AND = {
+					# 	capital 
+					# 	owner = { 
+					# 		capital_scope = {
+					# 			OR = { 
+					# 				region = coromandel_region
+					# 				region = deccan_region
+					# 			} 
+					# 		} 
+					# 	}
+					# }
+					
 				}
 				NOT = {
 					OR = {

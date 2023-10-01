@@ -72,3 +72,7 @@ hydra_swe_merc_company_2_modifier = {
 	#shock_damage = 0.10
 	mercenary_discipline = 0.025
 }
+
+#hydra_ally_bankruptcy_modifier = {
+#	land_morale = -0.2
+#}

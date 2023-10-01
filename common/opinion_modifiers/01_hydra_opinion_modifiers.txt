@@ -1,0 +1,4 @@
+#hydra_abandon_ally_opinion = {
+#	opinion = -200
+#	yearly_decay = 5
+#}

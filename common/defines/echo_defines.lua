@@ -173,3 +173,11 @@ NDefines.NGovernment.LEADER_AS_MONARCH_TRADITION = 15
 
 NDefines.NGame.DAYS_BEHIND_PAUSE = 90					-- In multiplayer, if the slowest player is lagging behind this amount of days, the game will pause
 NDefines.NGame.DAYS_BEHIND_LOWER_SPEED = 999			-- In multiplayer, if the slowest player is lagging behind this amount of days, the game will slow down
+
+--Hydra Defines
+--NDefines.NGame.PEACE_IMPACT_ADM_SCORE = 0.2
+--NDefines.NGame.PEACE_IMPACT_DIP_SCORE = 0.2
+--NDefines.NGame.PEACE_IMPACT_MIL_SCORE = 0.2
+
+--NDefines.NGame.AUTONOMY_WARSCORE_COST_MODIFIER = 0.75			-- How much autonomy reduces score by (at 1, 50% autonomy = 50% reduction)
+--NDefines.NGame.GREAT_PROJECT_WARSCORE_COST_MODIFIER = 0.25	-- How much each great project multiplies a war score cost by (so 1 GP adds 33%, 2 add 66% etc)

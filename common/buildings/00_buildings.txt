@@ -33,6 +33,7 @@ marketplace = {
 
 	modifier = {
 		province_trade_power_modifier = 0.5
+		province_trade_power_value = 0.05
 	}
 	on_built = {
 		add_development_from_building = {
@@ -407,6 +408,7 @@ coastal_defence = {
 		blockade_force_required = 0.5
 		hostile_disembark_speed = 1.0
 		block_slave_raid = yes
+		#allowed_num_of_buildings = -1
 	}
 	
 	ai_will_do = {
@@ -642,7 +644,7 @@ fort_16th = {
 naval_battery = {
 
 	make_obsolete = coastal_defence
-	cost = 200
+	cost = 500
 	time = 12
 	build_trigger = {
 		has_port = yes
@@ -652,6 +654,7 @@ naval_battery = {
 		hostile_disembark_speed = 2.0
 		hostile_fleet_attrition = 5
 		block_slave_raid = yes
+		#allowed_num_of_buildings = -1
 	}
 
 	ai_will_do = {
@@ -837,6 +840,7 @@ trade_depot = {
 
 	modifier = {
 		province_trade_power_modifier = 1
+		trade_value_modifier = 0.1
 	}
 
 	on_built = {
@@ -1124,6 +1128,7 @@ stock_exchange = {
 	make_obsolete = trade_depot
 	modifier = {
 		province_trade_power_modifier = 2
+		trade_value_modifier = 0.2
 		
 	}	
 
@@ -1926,8 +1931,10 @@ ramparts = {
 	time = 60
 	modifier = {
 		local_hostile_attrition = 1
+		max_attrition = 1
 		local_defensiveness = 0.15
 		local_defender_dice_roll_bonus = 1
+		allowed_num_of_buildings = -1
 	}
 	build_trigger = {
 		NOT = {
@@ -1981,6 +1988,8 @@ soldier_households = {
 
 	modifier = {
 		local_manpower = 0.50
+		regiment_recruit_speed = -0.1
+		local_regiment_cost = -0.05
 	}
 	bonus_modifier = {
 		local_manpower = 0.50
@@ -2053,12 +2062,12 @@ impressment_offices = {
 	}
 
 	modifier = {
-		local_sailors = 250
+		local_sailors = 500
 		ship_recruit_speed = -0.1
 		local_ship_cost = -0.05
 	}
 	bonus_modifier = {
-		local_sailors = 250
+		local_sailors = 500
 		ship_recruit_speed = -0.1
 		local_ship_cost = -0.05
 	}
@@ -2138,10 +2147,13 @@ state_house = {
 
 	modifier = {
 		statewide_governing_cost = -0.15
-		local_tax_modifier = 1.5
+		local_tax_modifier = 0.75
+		local_production_efficiency = 0.75
 	}
 	bonus_modifier = {
 		statewide_governing_cost = -0.15
+		local_tax_modifier = 0.75
+		local_production_efficiency = 0.75
 	}
 	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way

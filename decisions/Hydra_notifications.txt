@@ -1,0 +1,28 @@
+# country_decisions = {
+
+# 	notifications_off = {
+# 		color = { 340   100  50 } #Naranja
+# 		potential = {
+# 			NOT = { has_country_flag = hydra_notifications_off }
+# 		}
+# 		allow = {
+# 			ai = no
+# 		}
+# 		effect = {
+# 			set_country_flag = hydra_notifications_off
+# 		}
+# 	}
+# 	notifications_on = {
+# 		color = { 340   100  50 } #Naranja
+# 		potential = {
+# 			has_country_flag = hydra_notifications_off
+# 		}
+# 		allow = {
+# 			ai = no
+# 		}
+# 		effect = {
+# 			clr_country_flag = hydra_notifications_off
+# 		}
+# 	}
+
+# }

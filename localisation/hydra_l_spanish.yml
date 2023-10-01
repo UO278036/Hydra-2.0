@@ -10,6 +10,17 @@
 # hydra_no_hugbox.1.a:0 "Nuestra administración depende de nuestros aliados"
 # hydra_no_hugbox.1.b:0 "Nuestro ejército depende de nuestros aliados"
 # hydra_no_hugbox.1.c:0 "Nuestra supervivencia depende de nuestros aliados"
+ hydra_notifications.1.t:0 "[bankrupted_player.GetName] esta en §Rbancarrota§!"
+ hydra_notifications.1.d:0 "Todos los jugadores de la partida an recibido esta §Gnotificacion§! sobre la §RBancarrota§!. Talvez deberiamos prepararnos para la guerra."
+ hydra_notifications.1.a:0 "Debemos prepararnos para lo inevitable"
+ hydra_notifications.2.t:0 "[bankrupted_player.GetName] esta en §Rbancarrota§!"
+ hydra_notifications.2.d:0 "Todos los jugadores de la partida an recibido esta §Gnotificacion§! sobre la §RBancarrota§! de [bankrupted_player.GetName]. Debemos movernos rapido y tomar esta oportunidad, para optener tierras y dinero facil, antes que otros rivales la tomen o que la bancarrota expire. Tenemos 5 años para movernos decisivamente."
+ hydra_notifications.2.a:0 "Suena como una oportunidad dorada."
+ hydra_notifications.3.t:0 "[bankrupted_player.GetName] esta en §Rbancarrota§!"
+ hydra_notifications.3.d:0 "desc placeholder"
+ hydra_notifications.3.a:0 "1 placeholder"
+ hydra_notifications.3.b:0 "2 placeholder"
+ #HYDRA_BANKRUPTED_PLAYER_TOOLTIP:0 "Every player will know you are at bankruptcy"
 ########################################
 # Modificadores #
 ########################################
@@ -21,6 +32,7 @@
  close_area_0_modifier:0 "Región del mapa completamente cerrada"
  close_area_1_modifier:0 "Región no civilizada"
  close_area_3_modifier:0 "Región no civilizada"
+ close_area_2_modifier:0 "Región no civilizada"
  close_area_4_modifier:0 "Región no civilizada"
  close_area_5_modifier:0 "Región no civilizada"
  close_area_6_modifier:0 "Región no civilizada"

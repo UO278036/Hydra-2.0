@@ -293,13 +293,14 @@ patriarch_state = {
 patriarch_authority_local = {
 	local_unrest = -3
 	local_manpower_modifier = 0.2
-	regiment_manpower_usage = -0.05
+	#regiment_manpower_usage = -0.05 #Es un bono global, este modificador aplica a cada provincia, por lo que se multiplica por la cantidad de provincias
 }
 
 #for the country
 patriarch_authority_global = {
 	global_missionary_strength = 0.02
 	church_influence_modifier = 0.10
+	regiment_manpower_usage = -0.05
 }
 
 pasha_state = {
@@ -595,9 +596,10 @@ base_values = {
 	tolerance_of_heathens_capacity = 5
 	max_flagships = 1
 	num_of_parliament_issues = 10
-	yearly_army_professionalism = -0.005
+	yearly_army_professionalism = -0.01
 	sunk_ship_morale_hit_recieved = -0.9
 	privateer_efficiency = -0.9
+	garrison_damage = 0.25
 }
 
 # AI 'cheats' that compensate for flaws in its long-term decision making, removing these may severely cripple the AI

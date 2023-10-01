@@ -1,0 +1,120 @@
+namespace = hydra_notifications
+
+
+#################BANCARROTA#############################
+country_event = {
+	id = hydra_notifications.1
+    title = hydra_notifications.1.t
+	desc = hydra_notifications.1.d
+	picture = BANKRUPTCY_eventPicture
+	
+	#hidden = yes
+    is_triggered_only = yes
+
+    trigger = {
+        is_bankrupt = yes
+        AI = no #turn of this condition if you need to test
+    }
+	
+	immediate = {
+        #clear_global_event_target = bankrupted_player
+        #save_global_event_target_as = bankrupted_player
+        hidden_effect = { save_event_target_as = bankrupted_player }
+        every_country = {
+            limit = {
+                AND = {
+                    AI = no 
+                    is_bankrupt = no
+                }
+            }
+            hidden_effect = { 
+                #save_event_target_as = bankrupted_player
+                country_event = { id = hydra_notifications.2 days = 0 }
+            }
+        }
+        #hidden_effect = { every_ally = { country_event = { id = hydra_notifications.3 days = 0 } }
+	}
+	
+	option = {
+		name = hydra_notifications.1.a
+        #tooltip = HYDRA_BANKRUPTED_PLAYER_TOOLTIP #crash
+	}
+}
+
+country_event = {
+	id = hydra_notifications.2
+    title = hydra_notifications.2.t
+	desc = hydra_notifications.2.d
+	picture = BYZ_REVOLUTION_eventPicture
+	
+    is_triggered_only = yes
+
+    trigger = {
+        
+    }
+	
+	immediate = {
+
+	}
+	
+	option = {
+		name = hydra_notifications.2.a
+	}
+}
+#################BANCARROTA#############################
+
+
+#################ALIANZA#############################
+# country_event = {
+# 	id = hydra_notifications.3
+#     title = hydra_notifications.3.t
+# 	desc = hydra_notifications.3.d
+# 	picture = DIPLOMACY_eventPicture
+	
+# 	hidden = yes
+#     is_triggered_only = yes
+
+#     trigger = {
+#         #AI = no #turn off this condition if you need to test
+#     }
+	
+# 	immediate = {
+#         hidden_effect = { save_event_target_as = alied_player }
+#         every_country = {
+#             limit = {
+#                 AND = {
+#                     AI = no 
+#                     NOT = {  has_country_flag = hydra_notifications_off }
+#                 }
+#             }
+#             hidden_effect = { 
+#                 country_event = { id = hydra_notifications.4 days = 0 }
+#             }
+#         }
+# 	}
+	
+# 	option = {
+# 		name = hydra_notifications.3.a
+# 	}
+# }
+
+# country_event = {
+# 	id = hydra_notifications.4
+#     title = hydra_notifications.4.t
+# 	desc = hydra_notifications.4.d
+# 	picture = DIPLOMACY_eventPicture
+	
+#     is_triggered_only = yes
+
+#     trigger = {
+        
+#     }
+	
+# 	immediate = {
+
+# 	}
+	
+# 	option = {
+# 		name = hydra_notifications.4.a
+# 	}
+# }
