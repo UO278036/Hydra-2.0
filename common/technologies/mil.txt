@@ -3,6 +3,8 @@ monarch_power = MIL
 # applied when a country is ahead of time in this technology
 # no bonus for MIL currently
  ahead_of_time = {
+	yearly_corruption = -0.05
+	military_tactics = 0.1
 	monthly_russian_modernization = 0.05
  }
 

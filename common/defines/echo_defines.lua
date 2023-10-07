@@ -21,6 +21,7 @@ NDefines.NDiplomacy.CLAIM_STATE_MODIFIER = 0.25
 NDefines.NDiplomacy.PEACE_COST_GOLD_STEP = 4
 NDefines.NDiplomacy.PEACE_COST_WAR_REPARATIONS = 5
 NDefines.NDiplomacy.PEACE_COST_HUMILIATE_RIVAL = 30
+NDefines.NDiplomacy.PEACE_COST_ANNUL = 5
 NDefines.NDiplomacy.IMPERIAL_CITY_IA = 0.01
 NDefines.NDiplomacy.FORCE_BREAK_ALLIANCE_TRUCE_YEARS = 0
 NDefines.NDiplomacy.UNCONDITIONAL_SURRENDER_MIN_MONTHS = 1	
@@ -109,7 +110,7 @@ NDefines.NEconomy.COT_DOWNGRADE_PRESTIGE_COST = 0
 NDefines.NEconomy.GOLD_MINE_DEPLETION_THRESHOLD = 10				-- Gold mines above production level or above can be depleted
 NDefines.NEconomy.GOLD_MINE_DEPLETION_CHANCE = 0.05
 
-NDefines.NMilitary.MERCENARY_REINFORCE_COST_MULTIPLIER = 1
+NDefines.NMilitary.MERCENARY_REINFORCE_COST_MULTIPLIER = 1.25       --1 echo
 NDefines.NMilitary.FORTRESS_COST = 0.166
 NDefines.NMilitary.ARMY_DRILL_YEARLY_GAIN = 33.3
 NDefines.NMilitary.ARMY_DRILL_SKILL_MONTHS = 60
@@ -175,9 +176,6 @@ NDefines.NGame.DAYS_BEHIND_PAUSE = 90					-- In multiplayer, if the slowest play
 NDefines.NGame.DAYS_BEHIND_LOWER_SPEED = 999			-- In multiplayer, if the slowest player is lagging behind this amount of days, the game will slow down
 
 --Hydra Defines
---NDefines.NGame.PEACE_IMPACT_ADM_SCORE = 0.2
---NDefines.NGame.PEACE_IMPACT_DIP_SCORE = 0.2
---NDefines.NGame.PEACE_IMPACT_MIL_SCORE = 0.2
 
---NDefines.NGame.AUTONOMY_WARSCORE_COST_MODIFIER = 0.75			-- How much autonomy reduces score by (at 1, 50% autonomy = 50% reduction)
---NDefines.NGame.GREAT_PROJECT_WARSCORE_COST_MODIFIER = 0.25	-- How much each great project multiplies a war score cost by (so 1 GP adds 33%, 2 add 66% etc)
+--NDefines.NDiplomacy.AUTONOMY_WARSCORE_COST_MODIFIER = 0.75			-- How much autonomy reduces score by (at 1, 50% autonomy = 50% reduction)
+--NDefines.NDiplomacy.GREAT_PROJECT_WARSCORE_COST_MODIFIER = 0.25	-- How much each great project multiplies a war score cost by (so 1 GP adds 33%, 2 add 66% etc)

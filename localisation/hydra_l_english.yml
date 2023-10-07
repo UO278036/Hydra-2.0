@@ -57,3 +57,10 @@
  notifications_off_desc:0 "Right now you are reciving the Hydra §Gnotification§!"
  notifications_on_title:0 "Turn §BON§! Hydra §Gnotification§!"
  notifications_on_desc:0 "Right now you are §RNOT§! reciving the Hydra §Gnotification§!"
+########################################
+#Triggers#
+########################################
+ base_age_0_balance_modifier:0 "Base age of Discovery balance modifier"
+ base_age_1_balance_modifier:0 "Base age of Reformation balance modifier"
+ base_age_2_balance_modifier:0 "Base age of Absolutism balance modifier"
+ base_age_3_balance_modifier:0 "Base age of Revolutions balance modifier"

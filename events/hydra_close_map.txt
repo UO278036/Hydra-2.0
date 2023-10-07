@@ -409,12 +409,16 @@ province_event = { #60 autonomia
 					#superregion = south_america_superregion
 					#superregion = southern_africa_superregion
 					#superregion = oceania_superregion
-					###superregion = india_superregion
+					superregion = india_superregion
+
+					
 					#region = coromandel_region
 					#region = deccan_region
-					region = bengal_region
-					region = west_india_region
-					region = hindusthan_region
+					#region = bengal_region
+					#region = west_india_region
+					#region = hindusthan_region
+					#region = coromandel_region
+					#region = deccan_region
 					# AND = {
 					# 	capital 
 					# 	owner = { 

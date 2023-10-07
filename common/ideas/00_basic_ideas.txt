@@ -433,6 +433,7 @@ infrastructure_ideas = {
 	}
 	administrative_efficiency_idea = {
 		state_governing_cost = -0.1
+		mercenary_manpower = 0.1
 	}
 	fort_logistics = {
 		fort_maintenance_modifier = -0.25
@@ -897,7 +898,7 @@ plutocracy_ideas = {
 		infantry_power = 0.1 #0.5
 	}
 	pragmatism = {
-		mercenary_manpower = 0.20
+		mercenary_manpower = 0.25
 	}
 	formalized_officer_corps = {
 		leader_cost = -0.1
@@ -1413,7 +1414,7 @@ mercenary_ideas = {
 		infantry_power = 0.1
 	}
 	organised_mercenary_recruitment = { 
-		mercenary_manpower = 0.25
+		mercenary_manpower = 0.33
 	}
 
 	ai_will_do = {

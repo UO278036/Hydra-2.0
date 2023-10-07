@@ -229,9 +229,8 @@ cb_trade_war_triggered = {
 cb_trade_conflict = {
 	valid_for_subject = no
 
-	prerequisites = {
-		always = no
-	}
+	is_triggered_only = yes
+	months = 24
 
 	war_goal = blockade_ports
 

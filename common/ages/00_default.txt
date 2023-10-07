@@ -597,7 +597,7 @@ age_of_absolutism = {
 				}
 			}
 			modifier = {
-				trade_steering = 0.33
+				trade_steering = 0.5
 				hull_size_modifier = 0.1
 			}
 			ai_will_do = {

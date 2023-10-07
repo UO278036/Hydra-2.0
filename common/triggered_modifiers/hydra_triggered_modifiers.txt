@@ -1,0 +1,95 @@
+base_age_0_balance_modifier = {
+	potential = {
+		#ROOT = {
+		#	ai = no	
+		#}
+		current_age = age_of_discovery
+	}
+
+	trigger = {
+		any_country = {
+			total_development = ROOT
+		}		
+		current_age = age_of_discovery
+	}
+	
+}
+
+base_age_1_balance_modifier = {
+	potential = {
+		#ROOT = {
+			#ai = no	
+		#}
+		current_age = age_of_reformation
+	}
+
+	trigger = {
+		any_country = {
+			total_development = ROOT
+		}		
+		current_age = age_of_reformation
+	}
+	#max_absolutism = 0
+	#army_tradition_decay = 0.00				#lose 1% yearly
+	#navy_tradition_decay = 0.00				#lose 1% yearly
+	#prestige_decay = 0.00					#lose 1% prestige each year
+	#yearly_army_professionalism = -0.000
+	privateer_efficiency = -0.10
+	garrison_damage = 0.10	
+	ae_impact = -0.25
+	province_warscore_cost = -0.1
+	fort_maintenance_modifier = 0.10
+}
+
+base_age_2_balance_modifier = {
+	potential = {
+		#ROOT = {
+			#ai = no	
+		#}
+		current_age = age_of_absolutism
+	}
+
+	trigger = {
+		any_country = {
+			total_development = ROOT
+		}		
+		current_age = age_of_absolutism
+	}
+	#max_absolutism = 25
+	army_tradition_decay = 0.01				#lose 1% yearly
+	navy_tradition_decay = 0.01				#lose 1% yearly
+	prestige_decay = 0.01					#lose 1% prestige each year
+	yearly_army_professionalism = -0.0025
+	privateer_efficiency = -0.25
+	garrison_damage = 0.25	
+	ae_impact = -0.5
+	province_warscore_cost = -0.2
+	fort_maintenance_modifier = 0.25
+}
+
+base_age_3_balance_modifier = {
+	potential = {
+		#ROOT = {
+		#	ai = no	
+		#}
+		current_age = age_of_revolutions
+	}
+
+	trigger = {
+		any_country = {
+			total_development = ROOT
+		}		
+		current_age = age_of_revolutions
+	}
+	max_absolutism = 25
+	army_tradition_decay = 0.02				#lose 2% yearly
+	navy_tradition_decay = 0.02				#lose 2% yearly
+	prestige_decay = 0.02					#lose 2% prestige each year
+	yearly_army_professionalism = -0.005
+	privateer_efficiency = -0.50
+	garrison_damage = 0.5
+	ae_impact = -0.75
+	administrative_efficiency = 0.05
+	province_warscore_cost = -0.33
+	fort_maintenance_modifier = 0.50
+}

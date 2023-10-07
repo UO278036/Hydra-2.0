@@ -563,7 +563,7 @@ scorched_earth = {
 ##########################################################################
 
 base_values = {
-	max_absolutism = 65
+	max_absolutism = 75						#Original 65 bajado para compensar trigger de era
 	merchants = 2							#Start with 2 merchants
 	diplomats = 2							#Start with 2 diplomats..
 	missionaries = 1						#1 missionary
@@ -598,8 +598,8 @@ base_values = {
 	num_of_parliament_issues = 10
 	yearly_army_professionalism = -0.01
 	sunk_ship_morale_hit_recieved = -0.9
-	privateer_efficiency = -0.9
-	garrison_damage = 0.25
+	privateer_efficiency = -0.75
+	#garrison_damage = 0.25 				#move to triggers
 }
 
 # AI 'cheats' that compensate for flaws in its long-term decision making, removing these may severely cripple the AI
@@ -1410,8 +1410,8 @@ gbr_colonial_investment = {
 }
 
 crown_colony_overlord = {
-		global_tariffs = -0.1
-		max_absolutism = -10
+	#global_tariffs = -0.1
+	#max_absolutism = -10
 }
 
 private_enterprise_overlord = {
