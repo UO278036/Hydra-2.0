@@ -29,7 +29,6 @@ difficulty_very_easy_player = {
 	improve_relation_modifier = 0.10
 	ae_impact = -0.33
 	yearly_corruption = -1.0
-	
 }
 
 difficulty_easy_player = {
@@ -601,7 +600,6 @@ base_values = {
 	sunk_ship_morale_hit_recieved = -0.9
 	privateer_efficiency = -0.75
 	#garrison_damage = 0.25 				#move to triggers
-	province_warscore_cost = -0.2			#move to triggers
 }
 
 # AI 'cheats' that compensate for flaws in its long-term decision making, removing these may severely cripple the AI

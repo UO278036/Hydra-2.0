@@ -63,7 +63,7 @@ base_age_2_balance_modifier = {
 	privateer_efficiency = -0.25
 	garrison_damage = 0.25	
 	ae_impact = -0.5
-	#province_warscore_cost = -0.2
+	province_warscore_cost = -0.2
 	fort_maintenance_modifier = 0.25
 }
 
