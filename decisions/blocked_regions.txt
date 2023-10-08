@@ -1,0 +1,30 @@
+ country_decisions = {
+
+	block_1_off = {
+ 		color = { 340   100  50 } #Naranja
+ 		potential = {
+ 			NOT = { has_global_flag = hydra_block_1_off }
+			tag = NED
+ 		}
+ 		allow = {
+ 			ai = no
+ 		}
+ 		effect = {
+			set_global_flag = hydra_block_1_off
+		}
+	}
+	block_1_on = {
+		color = { 340   100  50 } #Naranja
+ 		potential = {
+			has_global_flag = hydra_block_1_off
+			tag = NED
+ 		}
+ 		allow = {
+ 			ai = no
+ 		}
+		effect = {
+			clr_global_flag = hydra_block_1_off
+ 		}
+ 	}
+
+ }
