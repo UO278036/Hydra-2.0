@@ -408,8 +408,10 @@ province_event = { #60 autonomia
 					#superregion = north_america_superregion
 					#superregion = south_america_superregion
 					#superregion = southern_africa_superregion
-					#superregion = oceania_superregion
+					#superregion = oceania_superregion hydra_block_1_off
 					superregion = india_superregion
+					
+					
 
 					
 					#region = coromandel_region
@@ -440,10 +442,14 @@ province_event = { #60 autonomia
 				owner = {
 					ai = no
 				}
+				NOT = { has_global_flag = hydra_block_1_off }
 			}
 			AND = {  #Cuando hay que quitarlo
 				has_province_modifier = close_area_6_modifier
-				AI = yes
+				OR = {
+					AI = yes
+					has_global_flag = hydra_block_1_off
+				}
 			}
 		}
     }
